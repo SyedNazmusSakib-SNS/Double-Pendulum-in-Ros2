@@ -1,0 +1,22 @@
+[1.137s] Invoking command in '/media/sns/Study/1_RME/Ros2/ros2_ws/src/qos_demo': CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/media/sns/Study/1_RME/Ros2/ros2_ws/build/qos_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/media/sns/Study/1_RME/Ros2/ros2_ws/install/qos_demo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/qos_demo build --build-base /media/sns/Study/1_RME/Ros2/ros2_ws/build/qos_demo/build install --record /media/sns/Study/1_RME/Ros2/ros2_ws/build/qos_demo/install.log --single-version-externally-managed install_data
+[1.347s] running egg_info
+[1.362s] writing ../../build/qos_demo/qos_demo.egg-info/PKG-INFO
+[1.362s] writing dependency_links to ../../build/qos_demo/qos_demo.egg-info/dependency_links.txt
+[1.363s] writing entry points to ../../build/qos_demo/qos_demo.egg-info/entry_points.txt
+[1.363s] writing requirements to ../../build/qos_demo/qos_demo.egg-info/requires.txt
+[1.363s] writing top-level names to ../../build/qos_demo/qos_demo.egg-info/top_level.txt
+[1.393s] reading manifest file '../../build/qos_demo/qos_demo.egg-info/SOURCES.txt'
+[1.394s] writing manifest file '../../build/qos_demo/qos_demo.egg-info/SOURCES.txt'
+[1.394s] running build
+[1.394s] running build_py
+[1.395s] running install
+[1.400s] running install_lib
+[1.417s] running install_data
+[1.417s] running install_egg_info
+[1.433s] removing '/media/sns/Study/1_RME/Ros2/ros2_ws/install/qos_demo/lib/python3.12/site-packages/qos_demo-1.0.0-py3.12.egg-info' (and everything under it)
+[1.434s] Copying ../../build/qos_demo/qos_demo.egg-info to /media/sns/Study/1_RME/Ros2/ros2_ws/install/qos_demo/lib/python3.12/site-packages/qos_demo-1.0.0-py3.12.egg-info
+[1.434s] running install_scripts
+[1.539s] Installing publisher script to /media/sns/Study/1_RME/Ros2/ros2_ws/install/qos_demo/lib/qos_demo
+[1.539s] Installing subscriber script to /media/sns/Study/1_RME/Ros2/ros2_ws/install/qos_demo/lib/qos_demo
+[1.539s] writing list of installed files to '/media/sns/Study/1_RME/Ros2/ros2_ws/build/qos_demo/install.log'
+[1.568s] Invoked command in '/media/sns/Study/1_RME/Ros2/ros2_ws/src/qos_demo' returned '0': CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/media/sns/Study/1_RME/Ros2/ros2_ws/build/qos_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/media/sns/Study/1_RME/Ros2/ros2_ws/install/qos_demo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/qos_demo build --build-base /media/sns/Study/1_RME/Ros2/ros2_ws/build/qos_demo/build install --record /media/sns/Study/1_RME/Ros2/ros2_ws/build/qos_demo/install.log --single-version-externally-managed install_data

@@ -4,3 +4,6 @@ source;share/nodes_topics_demo/hook/pythonpath.sh
 source;share/nodes_topics_demo/hook/ament_prefix_path.ps1
 source;share/nodes_topics_demo/hook/ament_prefix_path.dsv
 source;share/nodes_topics_demo/hook/ament_prefix_path.sh
+source;../../build/nodes_topics_demo/share/nodes_topics_demo/hook/pythonpath_develop.ps1
+source;../../build/nodes_topics_demo/share/nodes_topics_demo/hook/pythonpath_develop.dsv
+source;../../build/nodes_topics_demo/share/nodes_topics_demo/hook/pythonpath_develop.sh

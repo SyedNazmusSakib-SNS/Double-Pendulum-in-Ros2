@@ -1,0 +1,20 @@
+running egg_info
+writing ../../build/qos_demo/qos_demo.egg-info/PKG-INFO
+writing dependency_links to ../../build/qos_demo/qos_demo.egg-info/dependency_links.txt
+writing entry points to ../../build/qos_demo/qos_demo.egg-info/entry_points.txt
+writing requirements to ../../build/qos_demo/qos_demo.egg-info/requires.txt
+writing top-level names to ../../build/qos_demo/qos_demo.egg-info/top_level.txt
+reading manifest file '../../build/qos_demo/qos_demo.egg-info/SOURCES.txt'
+writing manifest file '../../build/qos_demo/qos_demo.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/media/sns/Study/1_RME/Ros2/ros2_ws/install/qos_demo/lib/python3.12/site-packages/qos_demo-1.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/qos_demo/qos_demo.egg-info to /media/sns/Study/1_RME/Ros2/ros2_ws/install/qos_demo/lib/python3.12/site-packages/qos_demo-1.0.0-py3.12.egg-info
+running install_scripts
+Installing publisher script to /media/sns/Study/1_RME/Ros2/ros2_ws/install/qos_demo/lib/qos_demo
+Installing subscriber script to /media/sns/Study/1_RME/Ros2/ros2_ws/install/qos_demo/lib/qos_demo
+writing list of installed files to '/media/sns/Study/1_RME/Ros2/ros2_ws/build/qos_demo/install.log'

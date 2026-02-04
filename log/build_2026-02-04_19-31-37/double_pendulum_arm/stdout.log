@@ -1,0 +1,30 @@
+running develop
+Removing /media/sns/Study/1_RME/Ros2/ros2_ws/install/double_pendulum_arm/lib/python3.12/site-packages/double-pendulum-arm.egg-link (link to .)
+running egg_info
+writing ../../build/double_pendulum_arm/double_pendulum_arm.egg-info/PKG-INFO
+writing dependency_links to ../../build/double_pendulum_arm/double_pendulum_arm.egg-info/dependency_links.txt
+writing requirements to ../../build/double_pendulum_arm/double_pendulum_arm.egg-info/requires.txt
+writing top-level names to ../../build/double_pendulum_arm/double_pendulum_arm.egg-info/top_level.txt
+reading manifest file '../../build/double_pendulum_arm/double_pendulum_arm.egg-info/SOURCES.txt'
+writing manifest file '../../build/double_pendulum_arm/double_pendulum_arm.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /media/sns/Study/1_RME/Ros2/ros2_ws/build/double_pendulum_arm/build
+creating /media/sns/Study/1_RME/Ros2/ros2_ws/build/double_pendulum_arm/build/lib
+creating /media/sns/Study/1_RME/Ros2/ros2_ws/build/double_pendulum_arm/build/lib/double_pendulum_arm
+copying double_pendulum_arm/__init__.py -> /media/sns/Study/1_RME/Ros2/ros2_ws/build/double_pendulum_arm/build/lib/double_pendulum_arm
+running install
+running install_lib
+creating /media/sns/Study/1_RME/Ros2/ros2_ws/install/double_pendulum_arm/lib/python3.12/site-packages/double_pendulum_arm
+copying /media/sns/Study/1_RME/Ros2/ros2_ws/build/double_pendulum_arm/build/lib/double_pendulum_arm/__init__.py -> /media/sns/Study/1_RME/Ros2/ros2_ws/install/double_pendulum_arm/lib/python3.12/site-packages/double_pendulum_arm
+byte-compiling /media/sns/Study/1_RME/Ros2/ros2_ws/install/double_pendulum_arm/lib/python3.12/site-packages/double_pendulum_arm/__init__.py to __init__.cpython-312.pyc
+running install_data
+copying resource/double_pendulum_arm -> /media/sns/Study/1_RME/Ros2/ros2_ws/install/double_pendulum_arm/share/ament_index/resource_index/packages
+copying package.xml -> /media/sns/Study/1_RME/Ros2/ros2_ws/install/double_pendulum_arm/share/double_pendulum_arm
+copying launch/display.launch.py -> /media/sns/Study/1_RME/Ros2/ros2_ws/install/double_pendulum_arm/share/double_pendulum_arm/launch
+copying urdf/robot.urdf.xacro -> /media/sns/Study/1_RME/Ros2/ros2_ws/install/double_pendulum_arm/share/double_pendulum_arm/urdf
+copying rviz/view_robot.rviz -> /media/sns/Study/1_RME/Ros2/ros2_ws/install/double_pendulum_arm/share/double_pendulum_arm/rviz
+running install_egg_info
+Copying ../../build/double_pendulum_arm/double_pendulum_arm.egg-info to /media/sns/Study/1_RME/Ros2/ros2_ws/install/double_pendulum_arm/lib/python3.12/site-packages/double_pendulum_arm-0.0.0-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/media/sns/Study/1_RME/Ros2/ros2_ws/build/double_pendulum_arm/install.log'

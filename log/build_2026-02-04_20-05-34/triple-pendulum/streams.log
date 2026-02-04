@@ -1,0 +1,21 @@
+[1.335s] Invoking command in '/media/sns/Study/1_RME/Ros2/ros2_ws/build/triple-pendulum': CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/media/sns/Study/1_RME/Ros2/ros2_ws/build/triple-pendulum/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/media/sns/Study/1_RME/Ros2/ros2_ws/install/triple-pendulum/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /media/sns/Study/1_RME/Ros2/ros2_ws/build/triple-pendulum/build --no-deps symlink_data
+[1.586s] running develop
+[1.767s] running egg_info
+[1.783s] writing triple_pendulum.egg-info/PKG-INFO
+[1.783s] writing dependency_links to triple_pendulum.egg-info/dependency_links.txt
+[1.783s] writing requirements to triple_pendulum.egg-info/requires.txt
+[1.783s] writing top-level names to triple_pendulum.egg-info/top_level.txt
+[1.814s] reading manifest file 'triple_pendulum.egg-info/SOURCES.txt'
+[1.815s] writing manifest file 'triple_pendulum.egg-info/SOURCES.txt'
+[1.832s] running build_ext
+[1.833s] Creating /media/sns/Study/1_RME/Ros2/ros2_ws/install/triple-pendulum/lib/python3.12/site-packages/triple-pendulum.egg-link (link to .)
+[1.833s] 
+[1.833s] Installed /media/sns/Study/1_RME/Ros2/ros2_ws/build/triple-pendulum
+[1.833s] running symlink_data
+[1.833s] creating /media/sns/Study/1_RME/Ros2/ros2_ws/install/triple-pendulum/share/triple-pendulum/launch
+[1.834s] symbolically linking /media/sns/Study/1_RME/Ros2/ros2_ws/build/triple-pendulum/launch/display.launch.py -> /media/sns/Study/1_RME/Ros2/ros2_ws/install/triple-pendulum/share/triple-pendulum/launch
+[1.834s] creating /media/sns/Study/1_RME/Ros2/ros2_ws/install/triple-pendulum/share/triple-pendulum/urdf
+[1.834s] symbolically linking /media/sns/Study/1_RME/Ros2/ros2_ws/build/triple-pendulum/urdf/robot.urdf.xacro -> /media/sns/Study/1_RME/Ros2/ros2_ws/install/triple-pendulum/share/triple-pendulum/urdf
+[1.835s] creating /media/sns/Study/1_RME/Ros2/ros2_ws/install/triple-pendulum/share/triple-pendulum/rviz
+[1.835s] symbolically linking /media/sns/Study/1_RME/Ros2/ros2_ws/build/triple-pendulum/rviz/view_robot.rviz -> /media/sns/Study/1_RME/Ros2/ros2_ws/install/triple-pendulum/share/triple-pendulum/rviz
+[1.866s] Invoked command in '/media/sns/Study/1_RME/Ros2/ros2_ws/build/triple-pendulum' returned '0': CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/media/sns/Study/1_RME/Ros2/ros2_ws/build/triple-pendulum/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/media/sns/Study/1_RME/Ros2/ros2_ws/install/triple-pendulum/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /media/sns/Study/1_RME/Ros2/ros2_ws/build/triple-pendulum/build --no-deps symlink_data

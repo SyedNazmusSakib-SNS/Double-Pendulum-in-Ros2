@@ -1,0 +1,347 @@
+[0.069s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.069s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f4207105250>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f42070d51f0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f42070d51f0>>, mixin_verb=('build',))
+[0.094s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.094s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.094s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.094s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.094s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.094s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.094s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/media/sns/Study/1_RME/Ros2/ros2_ws'
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/double_pendulum_arm) by extensions ['ignore', 'ignore_ament_install']
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/double_pendulum_arm) by extension 'ignore'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/double_pendulum_arm) by extension 'ignore_ament_install'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/double_pendulum_arm) by extensions ['colcon_pkg']
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/double_pendulum_arm) by extension 'colcon_pkg'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/double_pendulum_arm) by extensions ['colcon_meta']
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/double_pendulum_arm) by extension 'colcon_meta'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/double_pendulum_arm) by extensions ['ros']
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/double_pendulum_arm) by extension 'ros'
+[0.115s] DEBUG:colcon.colcon_core.package_identification:Package 'src/double_pendulum_arm' with type 'ros.ament_python' and name 'double_pendulum_arm'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extension 'ignore'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extension 'ignore_ament_install'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extensions ['colcon_pkg']
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extension 'colcon_pkg'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extensions ['colcon_meta']
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extension 'colcon_meta'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extensions ['ros']
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extension 'ros'
+[0.116s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_robot_description' with type 'ros.ament_python' and name 'my_robot_description'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/nodes_topics_demo) by extensions ['ignore', 'ignore_ament_install']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/nodes_topics_demo) by extension 'ignore'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/nodes_topics_demo) by extension 'ignore_ament_install'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/nodes_topics_demo) by extensions ['colcon_pkg']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/nodes_topics_demo) by extension 'colcon_pkg'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/nodes_topics_demo) by extensions ['colcon_meta']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/nodes_topics_demo) by extension 'colcon_meta'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/nodes_topics_demo) by extensions ['ros']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/nodes_topics_demo) by extension 'ros'
+[0.116s] DEBUG:colcon.colcon_core.package_identification:Package 'src/nodes_topics_demo' with type 'ros.ament_python' and name 'nodes_topics_demo'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/qos_demo) by extensions ['ignore', 'ignore_ament_install']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/qos_demo) by extension 'ignore'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/qos_demo) by extension 'ignore_ament_install'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/qos_demo) by extensions ['colcon_pkg']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/qos_demo) by extension 'colcon_pkg'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/qos_demo) by extensions ['colcon_meta']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/qos_demo) by extension 'colcon_meta'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/qos_demo) by extensions ['ros']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/qos_demo) by extension 'ros'
+[0.117s] DEBUG:colcon.colcon_core.package_identification:Package 'src/qos_demo' with type 'ros.ament_python' and name 'qos_demo'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/triple-pendulum) by extensions ['ignore', 'ignore_ament_install']
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/triple-pendulum) by extension 'ignore'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/triple-pendulum) by extension 'ignore_ament_install'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/triple-pendulum) by extensions ['colcon_pkg']
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/triple-pendulum) by extension 'colcon_pkg'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/triple-pendulum) by extensions ['colcon_meta']
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/triple-pendulum) by extension 'colcon_meta'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/triple-pendulum) by extensions ['ros']
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/triple-pendulum) by extension 'ros'
+[0.117s] DEBUG:colcon.colcon_core.package_identification:Package 'src/triple-pendulum' with type 'ros.ament_python' and name 'triple-pendulum'
+[0.117s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.117s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.117s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.117s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.117s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.130s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.130s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.131s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /media/sns/Study/1_RME/Ros2/ros2_ws/install
+[0.133s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 387 installed packages in /opt/ros/jazzy
+[0.134s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.162s] Level 5:colcon.colcon_core.verb:set package 'double_pendulum_arm' build argument 'cmake_args' from command line to 'None'
+[0.162s] Level 5:colcon.colcon_core.verb:set package 'double_pendulum_arm' build argument 'cmake_target' from command line to 'None'
+[0.162s] Level 5:colcon.colcon_core.verb:set package 'double_pendulum_arm' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.162s] Level 5:colcon.colcon_core.verb:set package 'double_pendulum_arm' build argument 'cmake_clean_cache' from command line to 'False'
+[0.162s] Level 5:colcon.colcon_core.verb:set package 'double_pendulum_arm' build argument 'cmake_clean_first' from command line to 'False'
+[0.162s] Level 5:colcon.colcon_core.verb:set package 'double_pendulum_arm' build argument 'cmake_force_configure' from command line to 'False'
+[0.162s] Level 5:colcon.colcon_core.verb:set package 'double_pendulum_arm' build argument 'ament_cmake_args' from command line to 'None'
+[0.162s] Level 5:colcon.colcon_core.verb:set package 'double_pendulum_arm' build argument 'catkin_cmake_args' from command line to 'None'
+[0.162s] Level 5:colcon.colcon_core.verb:set package 'double_pendulum_arm' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.162s] DEBUG:colcon.colcon_core.verb:Building package 'double_pendulum_arm' with the following arguments: {'ament_cmake_args': None, 'build_base': '/media/sns/Study/1_RME/Ros2/ros2_ws/build/double_pendulum_arm', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/media/sns/Study/1_RME/Ros2/ros2_ws/install/double_pendulum_arm', 'merge_install': False, 'path': '/media/sns/Study/1_RME/Ros2/ros2_ws/src/double_pendulum_arm', 'symlink_install': True, 'test_result_base': None}
+[0.162s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'cmake_args' from command line to 'None'
+[0.162s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'cmake_target' from command line to 'None'
+[0.162s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.162s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.162s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.162s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.162s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.162s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.162s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.162s] DEBUG:colcon.colcon_core.verb:Building package 'my_robot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/media/sns/Study/1_RME/Ros2/ros2_ws/build/my_robot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/media/sns/Study/1_RME/Ros2/ros2_ws/install/my_robot_description', 'merge_install': False, 'path': '/media/sns/Study/1_RME/Ros2/ros2_ws/src/my_robot_description', 'symlink_install': True, 'test_result_base': None}
+[0.162s] Level 5:colcon.colcon_core.verb:set package 'nodes_topics_demo' build argument 'cmake_args' from command line to 'None'
+[0.162s] Level 5:colcon.colcon_core.verb:set package 'nodes_topics_demo' build argument 'cmake_target' from command line to 'None'
+[0.162s] Level 5:colcon.colcon_core.verb:set package 'nodes_topics_demo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.162s] Level 5:colcon.colcon_core.verb:set package 'nodes_topics_demo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.162s] Level 5:colcon.colcon_core.verb:set package 'nodes_topics_demo' build argument 'cmake_clean_first' from command line to 'False'
+[0.162s] Level 5:colcon.colcon_core.verb:set package 'nodes_topics_demo' build argument 'cmake_force_configure' from command line to 'False'
+[0.162s] Level 5:colcon.colcon_core.verb:set package 'nodes_topics_demo' build argument 'ament_cmake_args' from command line to 'None'
+[0.162s] Level 5:colcon.colcon_core.verb:set package 'nodes_topics_demo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.162s] Level 5:colcon.colcon_core.verb:set package 'nodes_topics_demo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.162s] DEBUG:colcon.colcon_core.verb:Building package 'nodes_topics_demo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/media/sns/Study/1_RME/Ros2/ros2_ws/build/nodes_topics_demo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/media/sns/Study/1_RME/Ros2/ros2_ws/install/nodes_topics_demo', 'merge_install': False, 'path': '/media/sns/Study/1_RME/Ros2/ros2_ws/src/nodes_topics_demo', 'symlink_install': True, 'test_result_base': None}
+[0.163s] Level 5:colcon.colcon_core.verb:set package 'qos_demo' build argument 'cmake_args' from command line to 'None'
+[0.163s] Level 5:colcon.colcon_core.verb:set package 'qos_demo' build argument 'cmake_target' from command line to 'None'
+[0.163s] Level 5:colcon.colcon_core.verb:set package 'qos_demo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.163s] Level 5:colcon.colcon_core.verb:set package 'qos_demo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.163s] Level 5:colcon.colcon_core.verb:set package 'qos_demo' build argument 'cmake_clean_first' from command line to 'False'
+[0.163s] Level 5:colcon.colcon_core.verb:set package 'qos_demo' build argument 'cmake_force_configure' from command line to 'False'
+[0.163s] Level 5:colcon.colcon_core.verb:set package 'qos_demo' build argument 'ament_cmake_args' from command line to 'None'
+[0.163s] Level 5:colcon.colcon_core.verb:set package 'qos_demo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.163s] Level 5:colcon.colcon_core.verb:set package 'qos_demo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.163s] DEBUG:colcon.colcon_core.verb:Building package 'qos_demo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/media/sns/Study/1_RME/Ros2/ros2_ws/build/qos_demo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/media/sns/Study/1_RME/Ros2/ros2_ws/install/qos_demo', 'merge_install': False, 'path': '/media/sns/Study/1_RME/Ros2/ros2_ws/src/qos_demo', 'symlink_install': True, 'test_result_base': None}
+[0.163s] Level 5:colcon.colcon_core.verb:set package 'triple-pendulum' build argument 'cmake_args' from command line to 'None'
+[0.163s] Level 5:colcon.colcon_core.verb:set package 'triple-pendulum' build argument 'cmake_target' from command line to 'None'
+[0.163s] Level 5:colcon.colcon_core.verb:set package 'triple-pendulum' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.163s] Level 5:colcon.colcon_core.verb:set package 'triple-pendulum' build argument 'cmake_clean_cache' from command line to 'False'
+[0.163s] Level 5:colcon.colcon_core.verb:set package 'triple-pendulum' build argument 'cmake_clean_first' from command line to 'False'
+[0.163s] Level 5:colcon.colcon_core.verb:set package 'triple-pendulum' build argument 'cmake_force_configure' from command line to 'False'
+[0.163s] Level 5:colcon.colcon_core.verb:set package 'triple-pendulum' build argument 'ament_cmake_args' from command line to 'None'
+[0.163s] Level 5:colcon.colcon_core.verb:set package 'triple-pendulum' build argument 'catkin_cmake_args' from command line to 'None'
+[0.163s] Level 5:colcon.colcon_core.verb:set package 'triple-pendulum' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.163s] DEBUG:colcon.colcon_core.verb:Building package 'triple-pendulum' with the following arguments: {'ament_cmake_args': None, 'build_base': '/media/sns/Study/1_RME/Ros2/ros2_ws/build/triple-pendulum', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/media/sns/Study/1_RME/Ros2/ros2_ws/install/triple-pendulum', 'merge_install': False, 'path': '/media/sns/Study/1_RME/Ros2/ros2_ws/src/triple-pendulum', 'symlink_install': True, 'test_result_base': None}
+[0.163s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.164s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.164s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/media/sns/Study/1_RME/Ros2/ros2_ws/src/double_pendulum_arm' with build type 'ament_python'
+[0.164s] Level 1:colcon.colcon_core.shell:create_environment_hook('double_pendulum_arm', 'ament_prefix_path')
+[0.165s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.166s] INFO:colcon.colcon_core.shell:Creating environment hook '/media/sns/Study/1_RME/Ros2/ros2_ws/install/double_pendulum_arm/share/double_pendulum_arm/hook/ament_prefix_path.ps1'
+[0.166s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/media/sns/Study/1_RME/Ros2/ros2_ws/install/double_pendulum_arm/share/double_pendulum_arm/hook/ament_prefix_path.dsv'
+[0.166s] INFO:colcon.colcon_core.shell:Creating environment hook '/media/sns/Study/1_RME/Ros2/ros2_ws/install/double_pendulum_arm/share/double_pendulum_arm/hook/ament_prefix_path.sh'
+[0.166s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.166s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.169s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/media/sns/Study/1_RME/Ros2/ros2_ws/src/my_robot_description' with build type 'ament_python'
+[0.169s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_description', 'ament_prefix_path')
+[0.169s] INFO:colcon.colcon_core.shell:Creating environment hook '/media/sns/Study/1_RME/Ros2/ros2_ws/install/my_robot_description/share/my_robot_description/hook/ament_prefix_path.ps1'
+[0.169s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/media/sns/Study/1_RME/Ros2/ros2_ws/install/my_robot_description/share/my_robot_description/hook/ament_prefix_path.dsv'
+[0.169s] INFO:colcon.colcon_core.shell:Creating environment hook '/media/sns/Study/1_RME/Ros2/ros2_ws/install/my_robot_description/share/my_robot_description/hook/ament_prefix_path.sh'
+[0.169s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.170s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.171s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/media/sns/Study/1_RME/Ros2/ros2_ws/src/nodes_topics_demo' with build type 'ament_python'
+[0.172s] Level 1:colcon.colcon_core.shell:create_environment_hook('nodes_topics_demo', 'ament_prefix_path')
+[0.172s] INFO:colcon.colcon_core.shell:Creating environment hook '/media/sns/Study/1_RME/Ros2/ros2_ws/install/nodes_topics_demo/share/nodes_topics_demo/hook/ament_prefix_path.ps1'
+[0.172s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/media/sns/Study/1_RME/Ros2/ros2_ws/install/nodes_topics_demo/share/nodes_topics_demo/hook/ament_prefix_path.dsv'
+[0.172s] INFO:colcon.colcon_core.shell:Creating environment hook '/media/sns/Study/1_RME/Ros2/ros2_ws/install/nodes_topics_demo/share/nodes_topics_demo/hook/ament_prefix_path.sh'
+[0.172s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.172s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.174s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/media/sns/Study/1_RME/Ros2/ros2_ws/src/qos_demo' with build type 'ament_python'
+[0.174s] Level 1:colcon.colcon_core.shell:create_environment_hook('qos_demo', 'ament_prefix_path')
+[0.174s] INFO:colcon.colcon_core.shell:Creating environment hook '/media/sns/Study/1_RME/Ros2/ros2_ws/install/qos_demo/share/qos_demo/hook/ament_prefix_path.ps1'
+[0.175s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/media/sns/Study/1_RME/Ros2/ros2_ws/install/qos_demo/share/qos_demo/hook/ament_prefix_path.dsv'
+[0.175s] INFO:colcon.colcon_core.shell:Creating environment hook '/media/sns/Study/1_RME/Ros2/ros2_ws/install/qos_demo/share/qos_demo/hook/ament_prefix_path.sh'
+[0.175s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.175s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.177s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/media/sns/Study/1_RME/Ros2/ros2_ws/src/triple-pendulum' with build type 'ament_python'
+[0.177s] Level 1:colcon.colcon_core.shell:create_environment_hook('triple-pendulum', 'ament_prefix_path')
+[0.177s] INFO:colcon.colcon_core.shell:Creating environment hook '/media/sns/Study/1_RME/Ros2/ros2_ws/install/triple-pendulum/share/triple-pendulum/hook/ament_prefix_path.ps1'
+[0.178s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/media/sns/Study/1_RME/Ros2/ros2_ws/install/triple-pendulum/share/triple-pendulum/hook/ament_prefix_path.dsv'
+[0.178s] INFO:colcon.colcon_core.shell:Creating environment hook '/media/sns/Study/1_RME/Ros2/ros2_ws/install/triple-pendulum/share/triple-pendulum/hook/ament_prefix_path.sh'
+[0.178s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.178s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.323s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/media/sns/Study/1_RME/Ros2/ros2_ws/src/double_pendulum_arm'
+[0.324s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.324s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.474s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/media/sns/Study/1_RME/Ros2/ros2_ws/src/my_robot_description'
+[0.475s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.475s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.639s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/media/sns/Study/1_RME/Ros2/ros2_ws/src/nodes_topics_demo'
+[0.639s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.639s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.797s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/media/sns/Study/1_RME/Ros2/ros2_ws/src/qos_demo'
+[0.797s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.797s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.945s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/media/sns/Study/1_RME/Ros2/ros2_ws/src/triple-pendulum'
+[0.945s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.945s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.513s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/media/sns/Study/1_RME/Ros2/ros2_ws/build/triple-pendulum': CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/media/sns/Study/1_RME/Ros2/ros2_ws/build/triple-pendulum/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/media/sns/Study/1_RME/Ros2/ros2_ws/install/triple-pendulum/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /media/sns/Study/1_RME/Ros2/ros2_ws/build/triple-pendulum/build --no-deps symlink_data
+[1.514s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/media/sns/Study/1_RME/Ros2/ros2_ws/build/my_robot_description': CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/media/sns/Study/1_RME/Ros2/ros2_ws/build/my_robot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/media/sns/Study/1_RME/Ros2/ros2_ws/install/my_robot_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /media/sns/Study/1_RME/Ros2/ros2_ws/build/my_robot_description/build --no-deps symlink_data
+[1.516s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/media/sns/Study/1_RME/Ros2/ros2_ws/build/double_pendulum_arm': CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/media/sns/Study/1_RME/Ros2/ros2_ws/build/double_pendulum_arm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/media/sns/Study/1_RME/Ros2/ros2_ws/install/double_pendulum_arm/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /media/sns/Study/1_RME/Ros2/ros2_ws/build/double_pendulum_arm/build --no-deps symlink_data
+[1.517s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/media/sns/Study/1_RME/Ros2/ros2_ws/build/nodes_topics_demo': CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/media/sns/Study/1_RME/Ros2/ros2_ws/build/nodes_topics_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/media/sns/Study/1_RME/Ros2/ros2_ws/install/nodes_topics_demo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /media/sns/Study/1_RME/Ros2/ros2_ws/build/nodes_topics_demo/build --no-deps symlink_data
+[1.696s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/media/sns/Study/1_RME/Ros2/ros2_ws/build/qos_demo': CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/media/sns/Study/1_RME/Ros2/ros2_ws/build/qos_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/media/sns/Study/1_RME/Ros2/ros2_ws/install/qos_demo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /media/sns/Study/1_RME/Ros2/ros2_ws/build/qos_demo/build --no-deps symlink_data
+[2.018s] Level 1:colcon.colcon_core.shell:create_environment_hook('nodes_topics_demo', 'pythonpath_develop')
+[2.019s] INFO:colcon.colcon_core.shell:Creating environment hook '/media/sns/Study/1_RME/Ros2/ros2_ws/build/nodes_topics_demo/share/nodes_topics_demo/hook/pythonpath_develop.ps1'
+[2.019s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/media/sns/Study/1_RME/Ros2/ros2_ws/build/nodes_topics_demo' returned '0': CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/media/sns/Study/1_RME/Ros2/ros2_ws/build/nodes_topics_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/media/sns/Study/1_RME/Ros2/ros2_ws/install/nodes_topics_demo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /media/sns/Study/1_RME/Ros2/ros2_ws/build/nodes_topics_demo/build --no-deps symlink_data
+[2.020s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/media/sns/Study/1_RME/Ros2/ros2_ws/build/nodes_topics_demo/share/nodes_topics_demo/hook/pythonpath_develop.dsv'
+[2.020s] INFO:colcon.colcon_core.shell:Creating environment hook '/media/sns/Study/1_RME/Ros2/ros2_ws/build/nodes_topics_demo/share/nodes_topics_demo/hook/pythonpath_develop.sh'
+[2.024s] Level 1:colcon.colcon_core.environment:checking '/media/sns/Study/1_RME/Ros2/ros2_ws/install/nodes_topics_demo' for CMake module files
+[2.025s] Level 1:colcon.colcon_core.environment:checking '/media/sns/Study/1_RME/Ros2/ros2_ws/install/nodes_topics_demo' for CMake config files
+[2.026s] Level 1:colcon.colcon_core.environment:checking '/media/sns/Study/1_RME/Ros2/ros2_ws/install/nodes_topics_demo/lib'
+[2.026s] Level 1:colcon.colcon_core.environment:checking '/media/sns/Study/1_RME/Ros2/ros2_ws/install/nodes_topics_demo/bin'
+[2.026s] Level 1:colcon.colcon_core.environment:checking '/media/sns/Study/1_RME/Ros2/ros2_ws/install/nodes_topics_demo/lib/pkgconfig/nodes_topics_demo.pc'
+[2.026s] Level 1:colcon.colcon_core.environment:checking '/media/sns/Study/1_RME/Ros2/ros2_ws/install/nodes_topics_demo/lib/python3.12/site-packages'
+[2.026s] Level 1:colcon.colcon_core.shell:create_environment_hook('nodes_topics_demo', 'pythonpath')
+[2.027s] INFO:colcon.colcon_core.shell:Creating environment hook '/media/sns/Study/1_RME/Ros2/ros2_ws/install/nodes_topics_demo/share/nodes_topics_demo/hook/pythonpath.ps1'
+[2.027s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/media/sns/Study/1_RME/Ros2/ros2_ws/install/nodes_topics_demo/share/nodes_topics_demo/hook/pythonpath.dsv'
+[2.028s] INFO:colcon.colcon_core.shell:Creating environment hook '/media/sns/Study/1_RME/Ros2/ros2_ws/install/nodes_topics_demo/share/nodes_topics_demo/hook/pythonpath.sh'
+[2.028s] Level 1:colcon.colcon_core.environment:checking '/media/sns/Study/1_RME/Ros2/ros2_ws/install/nodes_topics_demo/bin'
+[2.029s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nodes_topics_demo)
+[2.029s] INFO:colcon.colcon_core.shell:Creating package script '/media/sns/Study/1_RME/Ros2/ros2_ws/install/nodes_topics_demo/share/nodes_topics_demo/package.ps1'
+[2.030s] INFO:colcon.colcon_core.shell:Creating package descriptor '/media/sns/Study/1_RME/Ros2/ros2_ws/install/nodes_topics_demo/share/nodes_topics_demo/package.dsv'
+[2.031s] INFO:colcon.colcon_core.shell:Creating package script '/media/sns/Study/1_RME/Ros2/ros2_ws/install/nodes_topics_demo/share/nodes_topics_demo/package.sh'
+[2.032s] INFO:colcon.colcon_core.shell:Creating package script '/media/sns/Study/1_RME/Ros2/ros2_ws/install/nodes_topics_demo/share/nodes_topics_demo/package.bash'
+[2.033s] INFO:colcon.colcon_core.shell:Creating package script '/media/sns/Study/1_RME/Ros2/ros2_ws/install/nodes_topics_demo/share/nodes_topics_demo/package.zsh'
+[2.034s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/media/sns/Study/1_RME/Ros2/ros2_ws/install/nodes_topics_demo/share/colcon-core/packages/nodes_topics_demo)
+[2.043s] Level 1:colcon.colcon_core.shell:create_environment_hook('triple-pendulum', 'pythonpath_develop')
+[2.043s] INFO:colcon.colcon_core.shell:Creating environment hook '/media/sns/Study/1_RME/Ros2/ros2_ws/build/triple-pendulum/share/triple-pendulum/hook/pythonpath_develop.ps1'
+[2.044s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/media/sns/Study/1_RME/Ros2/ros2_ws/build/triple-pendulum' returned '0': CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/media/sns/Study/1_RME/Ros2/ros2_ws/build/triple-pendulum/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/media/sns/Study/1_RME/Ros2/ros2_ws/install/triple-pendulum/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /media/sns/Study/1_RME/Ros2/ros2_ws/build/triple-pendulum/build --no-deps symlink_data
+[2.044s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/media/sns/Study/1_RME/Ros2/ros2_ws/build/triple-pendulum/share/triple-pendulum/hook/pythonpath_develop.dsv'
+[2.044s] INFO:colcon.colcon_core.shell:Creating environment hook '/media/sns/Study/1_RME/Ros2/ros2_ws/build/triple-pendulum/share/triple-pendulum/hook/pythonpath_develop.sh'
+[2.045s] Level 1:colcon.colcon_core.environment:checking '/media/sns/Study/1_RME/Ros2/ros2_ws/install/triple-pendulum' for CMake module files
+[2.046s] Level 1:colcon.colcon_core.environment:checking '/media/sns/Study/1_RME/Ros2/ros2_ws/install/triple-pendulum' for CMake config files
+[2.046s] Level 1:colcon.colcon_core.environment:checking '/media/sns/Study/1_RME/Ros2/ros2_ws/install/triple-pendulum/lib'
+[2.046s] Level 1:colcon.colcon_core.environment:checking '/media/sns/Study/1_RME/Ros2/ros2_ws/install/triple-pendulum/bin'
+[2.046s] Level 1:colcon.colcon_core.environment:checking '/media/sns/Study/1_RME/Ros2/ros2_ws/install/triple-pendulum/lib/pkgconfig/triple-pendulum.pc'
+[2.047s] Level 1:colcon.colcon_core.environment:checking '/media/sns/Study/1_RME/Ros2/ros2_ws/install/triple-pendulum/lib/python3.12/site-packages'
+[2.047s] Level 1:colcon.colcon_core.shell:create_environment_hook('triple-pendulum', 'pythonpath')
+[2.047s] INFO:colcon.colcon_core.shell:Creating environment hook '/media/sns/Study/1_RME/Ros2/ros2_ws/install/triple-pendulum/share/triple-pendulum/hook/pythonpath.ps1'
+[2.047s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/media/sns/Study/1_RME/Ros2/ros2_ws/install/triple-pendulum/share/triple-pendulum/hook/pythonpath.dsv'
+[2.048s] INFO:colcon.colcon_core.shell:Creating environment hook '/media/sns/Study/1_RME/Ros2/ros2_ws/install/triple-pendulum/share/triple-pendulum/hook/pythonpath.sh'
+[2.049s] Level 1:colcon.colcon_core.environment:checking '/media/sns/Study/1_RME/Ros2/ros2_ws/install/triple-pendulum/bin'
+[2.049s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(triple-pendulum)
+[2.049s] INFO:colcon.colcon_core.shell:Creating package script '/media/sns/Study/1_RME/Ros2/ros2_ws/install/triple-pendulum/share/triple-pendulum/package.ps1'
+[2.049s] INFO:colcon.colcon_core.shell:Creating package descriptor '/media/sns/Study/1_RME/Ros2/ros2_ws/install/triple-pendulum/share/triple-pendulum/package.dsv'
+[2.050s] INFO:colcon.colcon_core.shell:Creating package script '/media/sns/Study/1_RME/Ros2/ros2_ws/install/triple-pendulum/share/triple-pendulum/package.sh'
+[2.050s] INFO:colcon.colcon_core.shell:Creating package script '/media/sns/Study/1_RME/Ros2/ros2_ws/install/triple-pendulum/share/triple-pendulum/package.bash'
+[2.051s] INFO:colcon.colcon_core.shell:Creating package script '/media/sns/Study/1_RME/Ros2/ros2_ws/install/triple-pendulum/share/triple-pendulum/package.zsh'
+[2.051s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/media/sns/Study/1_RME/Ros2/ros2_ws/install/triple-pendulum/share/colcon-core/packages/triple-pendulum)
+[2.081s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_description', 'pythonpath_develop')
+[2.082s] INFO:colcon.colcon_core.shell:Creating environment hook '/media/sns/Study/1_RME/Ros2/ros2_ws/build/my_robot_description/share/my_robot_description/hook/pythonpath_develop.ps1'
+[2.082s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/media/sns/Study/1_RME/Ros2/ros2_ws/build/my_robot_description' returned '0': CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/media/sns/Study/1_RME/Ros2/ros2_ws/build/my_robot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/media/sns/Study/1_RME/Ros2/ros2_ws/install/my_robot_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /media/sns/Study/1_RME/Ros2/ros2_ws/build/my_robot_description/build --no-deps symlink_data
+[2.082s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/media/sns/Study/1_RME/Ros2/ros2_ws/build/my_robot_description/share/my_robot_description/hook/pythonpath_develop.dsv'
+[2.082s] INFO:colcon.colcon_core.shell:Creating environment hook '/media/sns/Study/1_RME/Ros2/ros2_ws/build/my_robot_description/share/my_robot_description/hook/pythonpath_develop.sh'
+[2.083s] Level 1:colcon.colcon_core.environment:checking '/media/sns/Study/1_RME/Ros2/ros2_ws/install/my_robot_description' for CMake module files
+[2.083s] Level 1:colcon.colcon_core.environment:checking '/media/sns/Study/1_RME/Ros2/ros2_ws/install/my_robot_description' for CMake config files
+[2.083s] Level 1:colcon.colcon_core.environment:checking '/media/sns/Study/1_RME/Ros2/ros2_ws/install/my_robot_description/lib'
+[2.083s] Level 1:colcon.colcon_core.environment:checking '/media/sns/Study/1_RME/Ros2/ros2_ws/install/my_robot_description/bin'
+[2.084s] Level 1:colcon.colcon_core.environment:checking '/media/sns/Study/1_RME/Ros2/ros2_ws/install/my_robot_description/lib/pkgconfig/my_robot_description.pc'
+[2.084s] Level 1:colcon.colcon_core.environment:checking '/media/sns/Study/1_RME/Ros2/ros2_ws/install/my_robot_description/lib/python3.12/site-packages'
+[2.084s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_description', 'pythonpath')
+[2.084s] INFO:colcon.colcon_core.shell:Creating environment hook '/media/sns/Study/1_RME/Ros2/ros2_ws/install/my_robot_description/share/my_robot_description/hook/pythonpath.ps1'
+[2.084s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/media/sns/Study/1_RME/Ros2/ros2_ws/install/my_robot_description/share/my_robot_description/hook/pythonpath.dsv'
+[2.084s] INFO:colcon.colcon_core.shell:Creating environment hook '/media/sns/Study/1_RME/Ros2/ros2_ws/install/my_robot_description/share/my_robot_description/hook/pythonpath.sh'
+[2.085s] Level 1:colcon.colcon_core.environment:checking '/media/sns/Study/1_RME/Ros2/ros2_ws/install/my_robot_description/bin'
+[2.085s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_description)
+[2.085s] INFO:colcon.colcon_core.shell:Creating package script '/media/sns/Study/1_RME/Ros2/ros2_ws/install/my_robot_description/share/my_robot_description/package.ps1'
+[2.085s] INFO:colcon.colcon_core.shell:Creating package descriptor '/media/sns/Study/1_RME/Ros2/ros2_ws/install/my_robot_description/share/my_robot_description/package.dsv'
+[2.085s] INFO:colcon.colcon_core.shell:Creating package script '/media/sns/Study/1_RME/Ros2/ros2_ws/install/my_robot_description/share/my_robot_description/package.sh'
+[2.086s] INFO:colcon.colcon_core.shell:Creating package script '/media/sns/Study/1_RME/Ros2/ros2_ws/install/my_robot_description/share/my_robot_description/package.bash'
+[2.086s] INFO:colcon.colcon_core.shell:Creating package script '/media/sns/Study/1_RME/Ros2/ros2_ws/install/my_robot_description/share/my_robot_description/package.zsh'
+[2.086s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/media/sns/Study/1_RME/Ros2/ros2_ws/install/my_robot_description/share/colcon-core/packages/my_robot_description)
+[2.220s] Level 1:colcon.colcon_core.shell:create_environment_hook('qos_demo', 'pythonpath_develop')
+[2.220s] INFO:colcon.colcon_core.shell:Creating environment hook '/media/sns/Study/1_RME/Ros2/ros2_ws/build/qos_demo/share/qos_demo/hook/pythonpath_develop.ps1'
+[2.220s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/media/sns/Study/1_RME/Ros2/ros2_ws/build/qos_demo' returned '0': CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/media/sns/Study/1_RME/Ros2/ros2_ws/build/qos_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/media/sns/Study/1_RME/Ros2/ros2_ws/install/qos_demo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /media/sns/Study/1_RME/Ros2/ros2_ws/build/qos_demo/build --no-deps symlink_data
+[2.221s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/media/sns/Study/1_RME/Ros2/ros2_ws/build/qos_demo/share/qos_demo/hook/pythonpath_develop.dsv'
+[2.221s] INFO:colcon.colcon_core.shell:Creating environment hook '/media/sns/Study/1_RME/Ros2/ros2_ws/build/qos_demo/share/qos_demo/hook/pythonpath_develop.sh'
+[2.222s] Level 1:colcon.colcon_core.environment:checking '/media/sns/Study/1_RME/Ros2/ros2_ws/install/qos_demo' for CMake module files
+[2.222s] Level 1:colcon.colcon_core.environment:checking '/media/sns/Study/1_RME/Ros2/ros2_ws/install/qos_demo' for CMake config files
+[2.222s] Level 1:colcon.colcon_core.environment:checking '/media/sns/Study/1_RME/Ros2/ros2_ws/install/qos_demo/lib'
+[2.222s] Level 1:colcon.colcon_core.environment:checking '/media/sns/Study/1_RME/Ros2/ros2_ws/install/qos_demo/bin'
+[2.222s] Level 1:colcon.colcon_core.environment:checking '/media/sns/Study/1_RME/Ros2/ros2_ws/install/qos_demo/lib/pkgconfig/qos_demo.pc'
+[2.223s] Level 1:colcon.colcon_core.environment:checking '/media/sns/Study/1_RME/Ros2/ros2_ws/install/qos_demo/lib/python3.12/site-packages'
+[2.223s] Level 1:colcon.colcon_core.shell:create_environment_hook('qos_demo', 'pythonpath')
+[2.223s] INFO:colcon.colcon_core.shell:Creating environment hook '/media/sns/Study/1_RME/Ros2/ros2_ws/install/qos_demo/share/qos_demo/hook/pythonpath.ps1'
+[2.223s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/media/sns/Study/1_RME/Ros2/ros2_ws/install/qos_demo/share/qos_demo/hook/pythonpath.dsv'
+[2.223s] INFO:colcon.colcon_core.shell:Creating environment hook '/media/sns/Study/1_RME/Ros2/ros2_ws/install/qos_demo/share/qos_demo/hook/pythonpath.sh'
+[2.224s] Level 1:colcon.colcon_core.environment:checking '/media/sns/Study/1_RME/Ros2/ros2_ws/install/qos_demo/bin'
+[2.224s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(qos_demo)
+[2.224s] INFO:colcon.colcon_core.shell:Creating package script '/media/sns/Study/1_RME/Ros2/ros2_ws/install/qos_demo/share/qos_demo/package.ps1'
+[2.224s] INFO:colcon.colcon_core.shell:Creating package descriptor '/media/sns/Study/1_RME/Ros2/ros2_ws/install/qos_demo/share/qos_demo/package.dsv'
+[2.225s] INFO:colcon.colcon_core.shell:Creating package script '/media/sns/Study/1_RME/Ros2/ros2_ws/install/qos_demo/share/qos_demo/package.sh'
+[2.225s] INFO:colcon.colcon_core.shell:Creating package script '/media/sns/Study/1_RME/Ros2/ros2_ws/install/qos_demo/share/qos_demo/package.bash'
+[2.225s] INFO:colcon.colcon_core.shell:Creating package script '/media/sns/Study/1_RME/Ros2/ros2_ws/install/qos_demo/share/qos_demo/package.zsh'
+[2.225s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/media/sns/Study/1_RME/Ros2/ros2_ws/install/qos_demo/share/colcon-core/packages/qos_demo)
+[2.248s] Level 1:colcon.colcon_core.shell:create_environment_hook('double_pendulum_arm', 'pythonpath_develop')
+[2.248s] INFO:colcon.colcon_core.shell:Creating environment hook '/media/sns/Study/1_RME/Ros2/ros2_ws/build/double_pendulum_arm/share/double_pendulum_arm/hook/pythonpath_develop.ps1'
+[2.248s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/media/sns/Study/1_RME/Ros2/ros2_ws/build/double_pendulum_arm' returned '0': CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/media/sns/Study/1_RME/Ros2/ros2_ws/build/double_pendulum_arm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/media/sns/Study/1_RME/Ros2/ros2_ws/install/double_pendulum_arm/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /media/sns/Study/1_RME/Ros2/ros2_ws/build/double_pendulum_arm/build --no-deps symlink_data
+[2.248s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/media/sns/Study/1_RME/Ros2/ros2_ws/build/double_pendulum_arm/share/double_pendulum_arm/hook/pythonpath_develop.dsv'
+[2.249s] INFO:colcon.colcon_core.shell:Creating environment hook '/media/sns/Study/1_RME/Ros2/ros2_ws/build/double_pendulum_arm/share/double_pendulum_arm/hook/pythonpath_develop.sh'
+[2.249s] Level 1:colcon.colcon_core.environment:checking '/media/sns/Study/1_RME/Ros2/ros2_ws/install/double_pendulum_arm' for CMake module files
+[2.249s] Level 1:colcon.colcon_core.environment:checking '/media/sns/Study/1_RME/Ros2/ros2_ws/install/double_pendulum_arm' for CMake config files
+[2.249s] Level 1:colcon.colcon_core.environment:checking '/media/sns/Study/1_RME/Ros2/ros2_ws/install/double_pendulum_arm/lib'
+[2.250s] Level 1:colcon.colcon_core.environment:checking '/media/sns/Study/1_RME/Ros2/ros2_ws/install/double_pendulum_arm/bin'
+[2.250s] Level 1:colcon.colcon_core.environment:checking '/media/sns/Study/1_RME/Ros2/ros2_ws/install/double_pendulum_arm/lib/pkgconfig/double_pendulum_arm.pc'
+[2.250s] Level 1:colcon.colcon_core.environment:checking '/media/sns/Study/1_RME/Ros2/ros2_ws/install/double_pendulum_arm/lib/python3.12/site-packages'
+[2.250s] Level 1:colcon.colcon_core.shell:create_environment_hook('double_pendulum_arm', 'pythonpath')
+[2.250s] INFO:colcon.colcon_core.shell:Creating environment hook '/media/sns/Study/1_RME/Ros2/ros2_ws/install/double_pendulum_arm/share/double_pendulum_arm/hook/pythonpath.ps1'
+[2.250s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/media/sns/Study/1_RME/Ros2/ros2_ws/install/double_pendulum_arm/share/double_pendulum_arm/hook/pythonpath.dsv'
+[2.250s] INFO:colcon.colcon_core.shell:Creating environment hook '/media/sns/Study/1_RME/Ros2/ros2_ws/install/double_pendulum_arm/share/double_pendulum_arm/hook/pythonpath.sh'
+[2.251s] Level 1:colcon.colcon_core.environment:checking '/media/sns/Study/1_RME/Ros2/ros2_ws/install/double_pendulum_arm/bin'
+[2.251s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(double_pendulum_arm)
+[2.251s] INFO:colcon.colcon_core.shell:Creating package script '/media/sns/Study/1_RME/Ros2/ros2_ws/install/double_pendulum_arm/share/double_pendulum_arm/package.ps1'
+[2.251s] INFO:colcon.colcon_core.shell:Creating package descriptor '/media/sns/Study/1_RME/Ros2/ros2_ws/install/double_pendulum_arm/share/double_pendulum_arm/package.dsv'
+[2.251s] INFO:colcon.colcon_core.shell:Creating package script '/media/sns/Study/1_RME/Ros2/ros2_ws/install/double_pendulum_arm/share/double_pendulum_arm/package.sh'
+[2.251s] INFO:colcon.colcon_core.shell:Creating package script '/media/sns/Study/1_RME/Ros2/ros2_ws/install/double_pendulum_arm/share/double_pendulum_arm/package.bash'
+[2.252s] INFO:colcon.colcon_core.shell:Creating package script '/media/sns/Study/1_RME/Ros2/ros2_ws/install/double_pendulum_arm/share/double_pendulum_arm/package.zsh'
+[2.252s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/media/sns/Study/1_RME/Ros2/ros2_ws/install/double_pendulum_arm/share/colcon-core/packages/double_pendulum_arm)
+[2.252s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.252s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.252s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.252s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.257s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.258s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.258s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.284s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.284s] INFO:colcon.colcon_core.shell:Creating prefix script '/media/sns/Study/1_RME/Ros2/ros2_ws/install/local_setup.ps1'
+[2.285s] INFO:colcon.colcon_core.shell:Creating prefix util module '/media/sns/Study/1_RME/Ros2/ros2_ws/install/_local_setup_util_ps1.py'
+[2.285s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/media/sns/Study/1_RME/Ros2/ros2_ws/install/setup.ps1'
+[2.286s] INFO:colcon.colcon_core.shell:Creating prefix script '/media/sns/Study/1_RME/Ros2/ros2_ws/install/local_setup.sh'
+[2.286s] INFO:colcon.colcon_core.shell:Creating prefix util module '/media/sns/Study/1_RME/Ros2/ros2_ws/install/_local_setup_util_sh.py'
+[2.287s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/media/sns/Study/1_RME/Ros2/ros2_ws/install/setup.sh'
+[2.287s] INFO:colcon.colcon_core.shell:Creating prefix script '/media/sns/Study/1_RME/Ros2/ros2_ws/install/local_setup.bash'
+[2.287s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/media/sns/Study/1_RME/Ros2/ros2_ws/install/setup.bash'
+[2.288s] INFO:colcon.colcon_core.shell:Creating prefix script '/media/sns/Study/1_RME/Ros2/ros2_ws/install/local_setup.zsh'
+[2.288s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/media/sns/Study/1_RME/Ros2/ros2_ws/install/setup.zsh'

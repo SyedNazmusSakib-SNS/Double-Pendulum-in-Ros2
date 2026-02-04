@@ -1,0 +1,22 @@
+[1.141s] Invoking command in '/media/sns/Study/1_RME/Ros2/ros2_ws/src/nodes_topics_demo': CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/media/sns/Study/1_RME/Ros2/ros2_ws/build/nodes_topics_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/media/sns/Study/1_RME/Ros2/ros2_ws/install/nodes_topics_demo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/nodes_topics_demo build --build-base /media/sns/Study/1_RME/Ros2/ros2_ws/build/nodes_topics_demo/build install --record /media/sns/Study/1_RME/Ros2/ros2_ws/build/nodes_topics_demo/install.log --single-version-externally-managed install_data
+[1.355s] running egg_info
+[1.370s] writing ../../build/nodes_topics_demo/nodes_topics_demo.egg-info/PKG-INFO
+[1.370s] writing dependency_links to ../../build/nodes_topics_demo/nodes_topics_demo.egg-info/dependency_links.txt
+[1.371s] writing entry points to ../../build/nodes_topics_demo/nodes_topics_demo.egg-info/entry_points.txt
+[1.371s] writing requirements to ../../build/nodes_topics_demo/nodes_topics_demo.egg-info/requires.txt
+[1.371s] writing top-level names to ../../build/nodes_topics_demo/nodes_topics_demo.egg-info/top_level.txt
+[1.401s] reading manifest file '../../build/nodes_topics_demo/nodes_topics_demo.egg-info/SOURCES.txt'
+[1.402s] writing manifest file '../../build/nodes_topics_demo/nodes_topics_demo.egg-info/SOURCES.txt'
+[1.402s] running build
+[1.402s] running build_py
+[1.402s] running install
+[1.408s] running install_lib
+[1.424s] running install_data
+[1.424s] running install_egg_info
+[1.441s] removing '/media/sns/Study/1_RME/Ros2/ros2_ws/install/nodes_topics_demo/lib/python3.12/site-packages/nodes_topics_demo-0.0.0-py3.12.egg-info' (and everything under it)
+[1.441s] Copying ../../build/nodes_topics_demo/nodes_topics_demo.egg-info to /media/sns/Study/1_RME/Ros2/ros2_ws/install/nodes_topics_demo/lib/python3.12/site-packages/nodes_topics_demo-0.0.0-py3.12.egg-info
+[1.441s] running install_scripts
+[1.545s] Installing number_publisher script to /media/sns/Study/1_RME/Ros2/ros2_ws/install/nodes_topics_demo/lib/nodes_topics_demo
+[1.545s] Installing number_subscriber script to /media/sns/Study/1_RME/Ros2/ros2_ws/install/nodes_topics_demo/lib/nodes_topics_demo
+[1.545s] writing list of installed files to '/media/sns/Study/1_RME/Ros2/ros2_ws/build/nodes_topics_demo/install.log'
+[1.580s] Invoked command in '/media/sns/Study/1_RME/Ros2/ros2_ws/src/nodes_topics_demo' returned '0': CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/media/sns/Study/1_RME/Ros2/ros2_ws/build/nodes_topics_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/media/sns/Study/1_RME/Ros2/ros2_ws/install/nodes_topics_demo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/nodes_topics_demo build --build-base /media/sns/Study/1_RME/Ros2/ros2_ws/build/nodes_topics_demo/build install --record /media/sns/Study/1_RME/Ros2/ros2_ws/build/nodes_topics_demo/install.log --single-version-externally-managed install_data

@@ -1,0 +1,34 @@
+[1.144s] Invoking command in '/media/sns/Study/1_RME/Ros2/ros2_ws/build/double_pendulum_arm': CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/media/sns/Study/1_RME/Ros2/ros2_ws/build/double_pendulum_arm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/media/sns/Study/1_RME/Ros2/ros2_ws/install/double_pendulum_arm/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /media/sns/Study/1_RME/Ros2/ros2_ws/build/double_pendulum_arm/build
+[1.468s] running develop
+[1.616s] Removing /media/sns/Study/1_RME/Ros2/ros2_ws/install/double_pendulum_arm/lib/python3.12/site-packages/double-pendulum-arm.egg-link (link to .)
+[1.641s] Invoked command in '/media/sns/Study/1_RME/Ros2/ros2_ws/build/double_pendulum_arm' returned '0': CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/media/sns/Study/1_RME/Ros2/ros2_ws/build/double_pendulum_arm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/media/sns/Study/1_RME/Ros2/ros2_ws/install/double_pendulum_arm/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /media/sns/Study/1_RME/Ros2/ros2_ws/build/double_pendulum_arm/build
+[1.642s] Invoking command in '/media/sns/Study/1_RME/Ros2/ros2_ws/src/double_pendulum_arm': CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/media/sns/Study/1_RME/Ros2/ros2_ws/build/double_pendulum_arm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/media/sns/Study/1_RME/Ros2/ros2_ws/install/double_pendulum_arm/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/double_pendulum_arm build --build-base /media/sns/Study/1_RME/Ros2/ros2_ws/build/double_pendulum_arm/build install --record /media/sns/Study/1_RME/Ros2/ros2_ws/build/double_pendulum_arm/install.log --single-version-externally-managed install_data --force
+[1.828s] running egg_info
+[1.841s] writing ../../build/double_pendulum_arm/double_pendulum_arm.egg-info/PKG-INFO
+[1.841s] writing dependency_links to ../../build/double_pendulum_arm/double_pendulum_arm.egg-info/dependency_links.txt
+[1.841s] writing requirements to ../../build/double_pendulum_arm/double_pendulum_arm.egg-info/requires.txt
+[1.842s] writing top-level names to ../../build/double_pendulum_arm/double_pendulum_arm.egg-info/top_level.txt
+[1.868s] reading manifest file '../../build/double_pendulum_arm/double_pendulum_arm.egg-info/SOURCES.txt'
+[1.868s] writing manifest file '../../build/double_pendulum_arm/double_pendulum_arm.egg-info/SOURCES.txt'
+[1.868s] running build
+[1.868s] running build_py
+[1.869s] creating /media/sns/Study/1_RME/Ros2/ros2_ws/build/double_pendulum_arm/build
+[1.869s] creating /media/sns/Study/1_RME/Ros2/ros2_ws/build/double_pendulum_arm/build/lib
+[1.869s] creating /media/sns/Study/1_RME/Ros2/ros2_ws/build/double_pendulum_arm/build/lib/double_pendulum_arm
+[1.869s] copying double_pendulum_arm/__init__.py -> /media/sns/Study/1_RME/Ros2/ros2_ws/build/double_pendulum_arm/build/lib/double_pendulum_arm
+[1.869s] running install
+[1.873s] running install_lib
+[1.887s] creating /media/sns/Study/1_RME/Ros2/ros2_ws/install/double_pendulum_arm/lib/python3.12/site-packages/double_pendulum_arm
+[1.887s] copying /media/sns/Study/1_RME/Ros2/ros2_ws/build/double_pendulum_arm/build/lib/double_pendulum_arm/__init__.py -> /media/sns/Study/1_RME/Ros2/ros2_ws/install/double_pendulum_arm/lib/python3.12/site-packages/double_pendulum_arm
+[1.887s] byte-compiling /media/sns/Study/1_RME/Ros2/ros2_ws/install/double_pendulum_arm/lib/python3.12/site-packages/double_pendulum_arm/__init__.py to __init__.cpython-312.pyc
+[1.887s] running install_data
+[1.887s] copying resource/double_pendulum_arm -> /media/sns/Study/1_RME/Ros2/ros2_ws/install/double_pendulum_arm/share/ament_index/resource_index/packages
+[1.888s] copying package.xml -> /media/sns/Study/1_RME/Ros2/ros2_ws/install/double_pendulum_arm/share/double_pendulum_arm
+[1.888s] copying launch/display.launch.py -> /media/sns/Study/1_RME/Ros2/ros2_ws/install/double_pendulum_arm/share/double_pendulum_arm/launch
+[1.888s] copying urdf/robot.urdf.xacro -> /media/sns/Study/1_RME/Ros2/ros2_ws/install/double_pendulum_arm/share/double_pendulum_arm/urdf
+[1.889s] copying rviz/view_robot.rviz -> /media/sns/Study/1_RME/Ros2/ros2_ws/install/double_pendulum_arm/share/double_pendulum_arm/rviz
+[1.889s] running install_egg_info
+[1.903s] Copying ../../build/double_pendulum_arm/double_pendulum_arm.egg-info to /media/sns/Study/1_RME/Ros2/ros2_ws/install/double_pendulum_arm/lib/python3.12/site-packages/double_pendulum_arm-0.0.0-py3.12.egg-info
+[1.906s] running install_scripts
+[2.006s] writing list of installed files to '/media/sns/Study/1_RME/Ros2/ros2_ws/build/double_pendulum_arm/install.log'
+[2.030s] Invoked command in '/media/sns/Study/1_RME/Ros2/ros2_ws/src/double_pendulum_arm' returned '0': CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/media/sns/Study/1_RME/Ros2/ros2_ws/build/double_pendulum_arm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/media/sns/Study/1_RME/Ros2/ros2_ws/install/double_pendulum_arm/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/double_pendulum_arm build --build-base /media/sns/Study/1_RME/Ros2/ros2_ws/build/double_pendulum_arm/build install --record /media/sns/Study/1_RME/Ros2/ros2_ws/build/double_pendulum_arm/install.log --single-version-externally-managed install_data --force

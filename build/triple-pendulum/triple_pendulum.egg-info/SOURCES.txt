@@ -1,0 +1,14 @@
+package.xml
+setup.cfg
+setup.py
+launch/display.launch.py
+resource/triple-pendulum
+rviz/view_robot.rviz
+triple-pendulum/__init__.py
+triple_pendulum.egg-info/PKG-INFO
+triple_pendulum.egg-info/SOURCES.txt
+triple_pendulum.egg-info/dependency_links.txt
+triple_pendulum.egg-info/requires.txt
+triple_pendulum.egg-info/top_level.txt
+triple_pendulum.egg-info/zip-safe
+urdf/robot.urdf.xacro

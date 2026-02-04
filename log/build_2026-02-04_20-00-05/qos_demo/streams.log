@@ -1,0 +1,20 @@
+[1.390s] Invoking command in '/media/sns/Study/1_RME/Ros2/ros2_ws/build/qos_demo': CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/media/sns/Study/1_RME/Ros2/ros2_ws/build/qos_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/media/sns/Study/1_RME/Ros2/ros2_ws/install/qos_demo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /media/sns/Study/1_RME/Ros2/ros2_ws/build/qos_demo/build --no-deps symlink_data --force
+[1.677s] running develop
+[1.842s] running egg_info
+[1.858s] writing qos_demo.egg-info/PKG-INFO
+[1.859s] writing dependency_links to qos_demo.egg-info/dependency_links.txt
+[1.859s] writing entry points to qos_demo.egg-info/entry_points.txt
+[1.859s] writing requirements to qos_demo.egg-info/requires.txt
+[1.859s] writing top-level names to qos_demo.egg-info/top_level.txt
+[1.893s] reading manifest file 'qos_demo.egg-info/SOURCES.txt'
+[1.893s] writing manifest file 'qos_demo.egg-info/SOURCES.txt'
+[1.911s] running build_ext
+[1.911s] Creating /media/sns/Study/1_RME/Ros2/ros2_ws/install/qos_demo/lib/python3.12/site-packages/qos-demo.egg-link (link to .)
+[1.912s] Installing publisher script to /media/sns/Study/1_RME/Ros2/ros2_ws/install/qos_demo/lib/qos_demo
+[1.912s] Installing subscriber script to /media/sns/Study/1_RME/Ros2/ros2_ws/install/qos_demo/lib/qos_demo
+[1.912s] 
+[1.912s] Installed /media/sns/Study/1_RME/Ros2/ros2_ws/build/qos_demo
+[1.912s] running symlink_data
+[1.912s] symbolically linking /media/sns/Study/1_RME/Ros2/ros2_ws/build/qos_demo/resource/qos_demo -> /media/sns/Study/1_RME/Ros2/ros2_ws/install/qos_demo/share/ament_index/resource_index/packages
+[1.912s] symbolically linking /media/sns/Study/1_RME/Ros2/ros2_ws/build/qos_demo/package.xml -> /media/sns/Study/1_RME/Ros2/ros2_ws/install/qos_demo/share/qos_demo
+[1.954s] Invoked command in '/media/sns/Study/1_RME/Ros2/ros2_ws/build/qos_demo' returned '0': CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/media/sns/Study/1_RME/Ros2/ros2_ws/build/qos_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/media/sns/Study/1_RME/Ros2/ros2_ws/install/qos_demo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /media/sns/Study/1_RME/Ros2/ros2_ws/build/qos_demo/build --no-deps symlink_data --force

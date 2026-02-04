@@ -1,0 +1,21 @@
+{
+    "ROS2.distro": "jazzy",
+    "python.autoComplete.extraPaths": [
+        "/media/sns/Study/1_RME/Ros2/ros2_ws/install/qos_demo/lib/python3.12/site-packages",
+        "/media/sns/Study/1_RME/Ros2/ros2_ws/install/nodes_topics_demo/lib/python3.12/site-packages",
+        "/media/sns/Study/1_RME/Ros2/ros2_ws/build/my_robot_description",
+        "/media/sns/Study/1_RME/Ros2/ros2_ws/install/my_robot_description/lib/python3.12/site-packages",
+        "/media/sns/Study/1_RME/Ros2/ros2_ws/build/double_pendulum_arm",
+        "/media/sns/Study/1_RME/Ros2/ros2_ws/install/double_pendulum_arm/lib/python3.12/site-packages",
+        "/opt/ros/jazzy/lib/python3.12/site-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/media/sns/Study/1_RME/Ros2/ros2_ws/install/qos_demo/lib/python3.12/site-packages",
+        "/media/sns/Study/1_RME/Ros2/ros2_ws/install/nodes_topics_demo/lib/python3.12/site-packages",
+        "/media/sns/Study/1_RME/Ros2/ros2_ws/build/my_robot_description",
+        "/media/sns/Study/1_RME/Ros2/ros2_ws/install/my_robot_description/lib/python3.12/site-packages",
+        "/media/sns/Study/1_RME/Ros2/ros2_ws/build/double_pendulum_arm",
+        "/media/sns/Study/1_RME/Ros2/ros2_ws/install/double_pendulum_arm/lib/python3.12/site-packages",
+        "/opt/ros/jazzy/lib/python3.12/site-packages"
+    ]
+}

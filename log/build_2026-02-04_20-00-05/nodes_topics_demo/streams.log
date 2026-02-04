@@ -1,0 +1,20 @@
+[1.520s] Invoking command in '/media/sns/Study/1_RME/Ros2/ros2_ws/build/nodes_topics_demo': CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/media/sns/Study/1_RME/Ros2/ros2_ws/build/nodes_topics_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/media/sns/Study/1_RME/Ros2/ros2_ws/install/nodes_topics_demo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /media/sns/Study/1_RME/Ros2/ros2_ws/build/nodes_topics_demo/build --no-deps symlink_data --force
+[1.963s] running develop
+[2.159s] running egg_info
+[2.176s] writing nodes_topics_demo.egg-info/PKG-INFO
+[2.176s] writing dependency_links to nodes_topics_demo.egg-info/dependency_links.txt
+[2.176s] writing entry points to nodes_topics_demo.egg-info/entry_points.txt
+[2.176s] writing requirements to nodes_topics_demo.egg-info/requires.txt
+[2.176s] writing top-level names to nodes_topics_demo.egg-info/top_level.txt
+[2.205s] reading manifest file 'nodes_topics_demo.egg-info/SOURCES.txt'
+[2.205s] writing manifest file 'nodes_topics_demo.egg-info/SOURCES.txt'
+[2.218s] running build_ext
+[2.218s] Creating /media/sns/Study/1_RME/Ros2/ros2_ws/install/nodes_topics_demo/lib/python3.12/site-packages/nodes-topics-demo.egg-link (link to .)
+[2.220s] Installing number_publisher script to /media/sns/Study/1_RME/Ros2/ros2_ws/install/nodes_topics_demo/lib/nodes_topics_demo
+[2.220s] Installing number_subscriber script to /media/sns/Study/1_RME/Ros2/ros2_ws/install/nodes_topics_demo/lib/nodes_topics_demo
+[2.220s] 
+[2.220s] Installed /media/sns/Study/1_RME/Ros2/ros2_ws/build/nodes_topics_demo
+[2.220s] running symlink_data
+[2.220s] symbolically linking /media/sns/Study/1_RME/Ros2/ros2_ws/build/nodes_topics_demo/resource/nodes_topics_demo -> /media/sns/Study/1_RME/Ros2/ros2_ws/install/nodes_topics_demo/share/ament_index/resource_index/packages
+[2.220s] symbolically linking /media/sns/Study/1_RME/Ros2/ros2_ws/build/nodes_topics_demo/package.xml -> /media/sns/Study/1_RME/Ros2/ros2_ws/install/nodes_topics_demo/share/nodes_topics_demo
+[2.250s] Invoked command in '/media/sns/Study/1_RME/Ros2/ros2_ws/build/nodes_topics_demo' returned '0': CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/media/sns/Study/1_RME/Ros2/ros2_ws/build/nodes_topics_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/media/sns/Study/1_RME/Ros2/ros2_ws/install/nodes_topics_demo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /media/sns/Study/1_RME/Ros2/ros2_ws/build/nodes_topics_demo/build --no-deps symlink_data --force

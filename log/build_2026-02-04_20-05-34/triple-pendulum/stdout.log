@@ -1,0 +1,19 @@
+running develop
+running egg_info
+writing triple_pendulum.egg-info/PKG-INFO
+writing dependency_links to triple_pendulum.egg-info/dependency_links.txt
+writing requirements to triple_pendulum.egg-info/requires.txt
+writing top-level names to triple_pendulum.egg-info/top_level.txt
+reading manifest file 'triple_pendulum.egg-info/SOURCES.txt'
+writing manifest file 'triple_pendulum.egg-info/SOURCES.txt'
+running build_ext
+Creating /media/sns/Study/1_RME/Ros2/ros2_ws/install/triple-pendulum/lib/python3.12/site-packages/triple-pendulum.egg-link (link to .)
+
+Installed /media/sns/Study/1_RME/Ros2/ros2_ws/build/triple-pendulum
+running symlink_data
+creating /media/sns/Study/1_RME/Ros2/ros2_ws/install/triple-pendulum/share/triple-pendulum/launch
+symbolically linking /media/sns/Study/1_RME/Ros2/ros2_ws/build/triple-pendulum/launch/display.launch.py -> /media/sns/Study/1_RME/Ros2/ros2_ws/install/triple-pendulum/share/triple-pendulum/launch
+creating /media/sns/Study/1_RME/Ros2/ros2_ws/install/triple-pendulum/share/triple-pendulum/urdf
+symbolically linking /media/sns/Study/1_RME/Ros2/ros2_ws/build/triple-pendulum/urdf/robot.urdf.xacro -> /media/sns/Study/1_RME/Ros2/ros2_ws/install/triple-pendulum/share/triple-pendulum/urdf
+creating /media/sns/Study/1_RME/Ros2/ros2_ws/install/triple-pendulum/share/triple-pendulum/rviz
+symbolically linking /media/sns/Study/1_RME/Ros2/ros2_ws/build/triple-pendulum/rviz/view_robot.rviz -> /media/sns/Study/1_RME/Ros2/ros2_ws/install/triple-pendulum/share/triple-pendulum/rviz

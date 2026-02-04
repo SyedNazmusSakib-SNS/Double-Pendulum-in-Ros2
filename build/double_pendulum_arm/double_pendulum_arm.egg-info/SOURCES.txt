@@ -1,6 +1,12 @@
 package.xml
 setup.cfg
 setup.py
+../../build/double_pendulum_arm/double_pendulum_arm.egg-info/PKG-INFO
+../../build/double_pendulum_arm/double_pendulum_arm.egg-info/SOURCES.txt
+../../build/double_pendulum_arm/double_pendulum_arm.egg-info/dependency_links.txt
+../../build/double_pendulum_arm/double_pendulum_arm.egg-info/requires.txt
+../../build/double_pendulum_arm/double_pendulum_arm.egg-info/top_level.txt
+../../build/double_pendulum_arm/double_pendulum_arm.egg-info/zip-safe
 double_pendulum_arm/__init__.py
 double_pendulum_arm.egg-info/PKG-INFO
 double_pendulum_arm.egg-info/SOURCES.txt

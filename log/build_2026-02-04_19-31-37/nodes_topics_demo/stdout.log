@@ -1,0 +1,20 @@
+running egg_info
+writing ../../build/nodes_topics_demo/nodes_topics_demo.egg-info/PKG-INFO
+writing dependency_links to ../../build/nodes_topics_demo/nodes_topics_demo.egg-info/dependency_links.txt
+writing entry points to ../../build/nodes_topics_demo/nodes_topics_demo.egg-info/entry_points.txt
+writing requirements to ../../build/nodes_topics_demo/nodes_topics_demo.egg-info/requires.txt
+writing top-level names to ../../build/nodes_topics_demo/nodes_topics_demo.egg-info/top_level.txt
+reading manifest file '../../build/nodes_topics_demo/nodes_topics_demo.egg-info/SOURCES.txt'
+writing manifest file '../../build/nodes_topics_demo/nodes_topics_demo.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/media/sns/Study/1_RME/Ros2/ros2_ws/install/nodes_topics_demo/lib/python3.12/site-packages/nodes_topics_demo-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/nodes_topics_demo/nodes_topics_demo.egg-info to /media/sns/Study/1_RME/Ros2/ros2_ws/install/nodes_topics_demo/lib/python3.12/site-packages/nodes_topics_demo-0.0.0-py3.12.egg-info
+running install_scripts
+Installing number_publisher script to /media/sns/Study/1_RME/Ros2/ros2_ws/install/nodes_topics_demo/lib/nodes_topics_demo
+Installing number_subscriber script to /media/sns/Study/1_RME/Ros2/ros2_ws/install/nodes_topics_demo/lib/nodes_topics_demo
+writing list of installed files to '/media/sns/Study/1_RME/Ros2/ros2_ws/build/nodes_topics_demo/install.log'

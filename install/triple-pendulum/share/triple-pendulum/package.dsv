@@ -1,0 +1,9 @@
+source;share/triple-pendulum/hook/pythonpath.ps1
+source;share/triple-pendulum/hook/pythonpath.dsv
+source;share/triple-pendulum/hook/pythonpath.sh
+source;share/triple-pendulum/hook/ament_prefix_path.ps1
+source;share/triple-pendulum/hook/ament_prefix_path.dsv
+source;share/triple-pendulum/hook/ament_prefix_path.sh
+source;../../build/triple-pendulum/share/triple-pendulum/hook/pythonpath_develop.ps1
+source;../../build/triple-pendulum/share/triple-pendulum/hook/pythonpath_develop.dsv
+source;../../build/triple-pendulum/share/triple-pendulum/hook/pythonpath_develop.sh

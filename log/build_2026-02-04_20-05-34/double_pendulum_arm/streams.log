@@ -1,0 +1,15 @@
+[1.351s] Invoking command in '/media/sns/Study/1_RME/Ros2/ros2_ws/build/double_pendulum_arm': CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/media/sns/Study/1_RME/Ros2/ros2_ws/build/double_pendulum_arm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/media/sns/Study/1_RME/Ros2/ros2_ws/install/double_pendulum_arm/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /media/sns/Study/1_RME/Ros2/ros2_ws/build/double_pendulum_arm/build --no-deps symlink_data
+[1.802s] running develop
+[1.997s] running egg_info
+[2.011s] writing double_pendulum_arm.egg-info/PKG-INFO
+[2.011s] writing dependency_links to double_pendulum_arm.egg-info/dependency_links.txt
+[2.012s] writing requirements to double_pendulum_arm.egg-info/requires.txt
+[2.012s] writing top-level names to double_pendulum_arm.egg-info/top_level.txt
+[2.040s] reading manifest file 'double_pendulum_arm.egg-info/SOURCES.txt'
+[2.041s] writing manifest file 'double_pendulum_arm.egg-info/SOURCES.txt'
+[2.056s] running build_ext
+[2.056s] Creating /media/sns/Study/1_RME/Ros2/ros2_ws/install/double_pendulum_arm/lib/python3.12/site-packages/double-pendulum-arm.egg-link (link to .)
+[2.057s] 
+[2.057s] Installed /media/sns/Study/1_RME/Ros2/ros2_ws/build/double_pendulum_arm
+[2.057s] running symlink_data
+[2.083s] Invoked command in '/media/sns/Study/1_RME/Ros2/ros2_ws/build/double_pendulum_arm' returned '0': CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/media/sns/Study/1_RME/Ros2/ros2_ws/build/double_pendulum_arm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/media/sns/Study/1_RME/Ros2/ros2_ws/install/double_pendulum_arm/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /media/sns/Study/1_RME/Ros2/ros2_ws/build/double_pendulum_arm/build --no-deps symlink_data

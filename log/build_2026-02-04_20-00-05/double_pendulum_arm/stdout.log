@@ -1,0 +1,18 @@
+running develop
+running egg_info
+writing double_pendulum_arm.egg-info/PKG-INFO
+writing dependency_links to double_pendulum_arm.egg-info/dependency_links.txt
+writing requirements to double_pendulum_arm.egg-info/requires.txt
+writing top-level names to double_pendulum_arm.egg-info/top_level.txt
+reading manifest file 'double_pendulum_arm.egg-info/SOURCES.txt'
+writing manifest file 'double_pendulum_arm.egg-info/SOURCES.txt'
+running build_ext
+Creating /media/sns/Study/1_RME/Ros2/ros2_ws/install/double_pendulum_arm/lib/python3.12/site-packages/double-pendulum-arm.egg-link (link to .)
+
+Installed /media/sns/Study/1_RME/Ros2/ros2_ws/build/double_pendulum_arm
+running symlink_data
+symbolically linking /media/sns/Study/1_RME/Ros2/ros2_ws/build/double_pendulum_arm/resource/double_pendulum_arm -> /media/sns/Study/1_RME/Ros2/ros2_ws/install/double_pendulum_arm/share/ament_index/resource_index/packages
+symbolically linking /media/sns/Study/1_RME/Ros2/ros2_ws/build/double_pendulum_arm/package.xml -> /media/sns/Study/1_RME/Ros2/ros2_ws/install/double_pendulum_arm/share/double_pendulum_arm
+symbolically linking /media/sns/Study/1_RME/Ros2/ros2_ws/build/double_pendulum_arm/launch/display.launch.py -> /media/sns/Study/1_RME/Ros2/ros2_ws/install/double_pendulum_arm/share/double_pendulum_arm/launch
+symbolically linking /media/sns/Study/1_RME/Ros2/ros2_ws/build/double_pendulum_arm/urdf/robot.urdf.xacro -> /media/sns/Study/1_RME/Ros2/ros2_ws/install/double_pendulum_arm/share/double_pendulum_arm/urdf
+symbolically linking /media/sns/Study/1_RME/Ros2/ros2_ws/build/double_pendulum_arm/rviz/view_robot.rviz -> /media/sns/Study/1_RME/Ros2/ros2_ws/install/double_pendulum_arm/share/double_pendulum_arm/rviz

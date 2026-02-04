@@ -1,0 +1,18 @@
+running develop
+running egg_info
+writing nodes_topics_demo.egg-info/PKG-INFO
+writing dependency_links to nodes_topics_demo.egg-info/dependency_links.txt
+writing entry points to nodes_topics_demo.egg-info/entry_points.txt
+writing requirements to nodes_topics_demo.egg-info/requires.txt
+writing top-level names to nodes_topics_demo.egg-info/top_level.txt
+reading manifest file 'nodes_topics_demo.egg-info/SOURCES.txt'
+writing manifest file 'nodes_topics_demo.egg-info/SOURCES.txt'
+running build_ext
+Creating /media/sns/Study/1_RME/Ros2/ros2_ws/install/nodes_topics_demo/lib/python3.12/site-packages/nodes-topics-demo.egg-link (link to .)
+Installing number_publisher script to /media/sns/Study/1_RME/Ros2/ros2_ws/install/nodes_topics_demo/lib/nodes_topics_demo
+Installing number_subscriber script to /media/sns/Study/1_RME/Ros2/ros2_ws/install/nodes_topics_demo/lib/nodes_topics_demo
+
+Installed /media/sns/Study/1_RME/Ros2/ros2_ws/build/nodes_topics_demo
+running symlink_data
+symbolically linking /media/sns/Study/1_RME/Ros2/ros2_ws/build/nodes_topics_demo/resource/nodes_topics_demo -> /media/sns/Study/1_RME/Ros2/ros2_ws/install/nodes_topics_demo/share/ament_index/resource_index/packages
+symbolically linking /media/sns/Study/1_RME/Ros2/ros2_ws/build/nodes_topics_demo/package.xml -> /media/sns/Study/1_RME/Ros2/ros2_ws/install/nodes_topics_demo/share/nodes_topics_demo
