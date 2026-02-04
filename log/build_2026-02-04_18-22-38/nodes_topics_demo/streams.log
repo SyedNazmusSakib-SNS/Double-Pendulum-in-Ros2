@@ -1,0 +1,41 @@
+[0.536s] Invoking command in '/media/sns/Study/1_RME/Ros2/ros2_ws/src/nodes_topics_demo': CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/media/sns/Study/1_RME/Ros2/ros2_ws/build/nodes_topics_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/media/sns/Study/1_RME/Ros2/ros2_ws/install/nodes_topics_demo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/nodes_topics_demo build --build-base /media/sns/Study/1_RME/Ros2/ros2_ws/build/nodes_topics_demo/build install --record /media/sns/Study/1_RME/Ros2/ros2_ws/build/nodes_topics_demo/install.log --single-version-externally-managed install_data
+[0.724s] running egg_info
+[0.724s] creating ../../build/nodes_topics_demo/nodes_topics_demo.egg-info
+[0.738s] writing ../../build/nodes_topics_demo/nodes_topics_demo.egg-info/PKG-INFO
+[0.738s] writing dependency_links to ../../build/nodes_topics_demo/nodes_topics_demo.egg-info/dependency_links.txt
+[0.739s] writing entry points to ../../build/nodes_topics_demo/nodes_topics_demo.egg-info/entry_points.txt
+[0.739s] writing requirements to ../../build/nodes_topics_demo/nodes_topics_demo.egg-info/requires.txt
+[0.739s] writing top-level names to ../../build/nodes_topics_demo/nodes_topics_demo.egg-info/top_level.txt
+[0.739s] writing manifest file '../../build/nodes_topics_demo/nodes_topics_demo.egg-info/SOURCES.txt'
+[0.766s] reading manifest file '../../build/nodes_topics_demo/nodes_topics_demo.egg-info/SOURCES.txt'
+[0.766s] writing manifest file '../../build/nodes_topics_demo/nodes_topics_demo.egg-info/SOURCES.txt'
+[0.766s] running build
+[0.766s] running build_py
+[0.767s] creating /media/sns/Study/1_RME/Ros2/ros2_ws/build/nodes_topics_demo/build
+[0.767s] creating /media/sns/Study/1_RME/Ros2/ros2_ws/build/nodes_topics_demo/build/lib
+[0.767s] creating /media/sns/Study/1_RME/Ros2/ros2_ws/build/nodes_topics_demo/build/lib/nodes_topics_demo
+[0.767s] copying nodes_topics_demo/number_publisher.py -> /media/sns/Study/1_RME/Ros2/ros2_ws/build/nodes_topics_demo/build/lib/nodes_topics_demo
+[0.767s] copying nodes_topics_demo/number_subscriber.py -> /media/sns/Study/1_RME/Ros2/ros2_ws/build/nodes_topics_demo/build/lib/nodes_topics_demo
+[0.767s] copying nodes_topics_demo/__init__.py -> /media/sns/Study/1_RME/Ros2/ros2_ws/build/nodes_topics_demo/build/lib/nodes_topics_demo
+[0.768s] running install
+[0.774s] running install_lib
+[0.786s] creating /media/sns/Study/1_RME/Ros2/ros2_ws/install/nodes_topics_demo/lib/python3.12/site-packages/nodes_topics_demo
+[0.787s] copying /media/sns/Study/1_RME/Ros2/ros2_ws/build/nodes_topics_demo/build/lib/nodes_topics_demo/number_publisher.py -> /media/sns/Study/1_RME/Ros2/ros2_ws/install/nodes_topics_demo/lib/python3.12/site-packages/nodes_topics_demo
+[0.787s] copying /media/sns/Study/1_RME/Ros2/ros2_ws/build/nodes_topics_demo/build/lib/nodes_topics_demo/number_subscriber.py -> /media/sns/Study/1_RME/Ros2/ros2_ws/install/nodes_topics_demo/lib/python3.12/site-packages/nodes_topics_demo
+[0.788s] copying /media/sns/Study/1_RME/Ros2/ros2_ws/build/nodes_topics_demo/build/lib/nodes_topics_demo/__init__.py -> /media/sns/Study/1_RME/Ros2/ros2_ws/install/nodes_topics_demo/lib/python3.12/site-packages/nodes_topics_demo
+[0.788s] byte-compiling /media/sns/Study/1_RME/Ros2/ros2_ws/install/nodes_topics_demo/lib/python3.12/site-packages/nodes_topics_demo/number_publisher.py to number_publisher.cpython-312.pyc
+[0.789s] byte-compiling /media/sns/Study/1_RME/Ros2/ros2_ws/install/nodes_topics_demo/lib/python3.12/site-packages/nodes_topics_demo/number_subscriber.py to number_subscriber.cpython-312.pyc
+[0.790s] byte-compiling /media/sns/Study/1_RME/Ros2/ros2_ws/install/nodes_topics_demo/lib/python3.12/site-packages/nodes_topics_demo/__init__.py to __init__.cpython-312.pyc
+[0.790s] running install_data
+[0.790s] creating /media/sns/Study/1_RME/Ros2/ros2_ws/install/nodes_topics_demo/share/ament_index
+[0.790s] creating /media/sns/Study/1_RME/Ros2/ros2_ws/install/nodes_topics_demo/share/ament_index/resource_index
+[0.790s] creating /media/sns/Study/1_RME/Ros2/ros2_ws/install/nodes_topics_demo/share/ament_index/resource_index/packages
+[0.790s] copying resource/nodes_topics_demo -> /media/sns/Study/1_RME/Ros2/ros2_ws/install/nodes_topics_demo/share/ament_index/resource_index/packages
+[0.790s] copying package.xml -> /media/sns/Study/1_RME/Ros2/ros2_ws/install/nodes_topics_demo/share/nodes_topics_demo
+[0.791s] running install_egg_info
+[0.803s] Copying ../../build/nodes_topics_demo/nodes_topics_demo.egg-info to /media/sns/Study/1_RME/Ros2/ros2_ws/install/nodes_topics_demo/lib/python3.12/site-packages/nodes_topics_demo-0.0.0-py3.12.egg-info
+[0.805s] running install_scripts
+[0.885s] Installing number_publisher script to /media/sns/Study/1_RME/Ros2/ros2_ws/install/nodes_topics_demo/lib/nodes_topics_demo
+[0.886s] Installing number_subscriber script to /media/sns/Study/1_RME/Ros2/ros2_ws/install/nodes_topics_demo/lib/nodes_topics_demo
+[0.886s] writing list of installed files to '/media/sns/Study/1_RME/Ros2/ros2_ws/build/nodes_topics_demo/install.log'
+[0.906s] Invoked command in '/media/sns/Study/1_RME/Ros2/ros2_ws/src/nodes_topics_demo' returned '0': CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/media/sns/Study/1_RME/Ros2/ros2_ws/build/nodes_topics_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/media/sns/Study/1_RME/Ros2/ros2_ws/install/nodes_topics_demo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/nodes_topics_demo build --build-base /media/sns/Study/1_RME/Ros2/ros2_ws/build/nodes_topics_demo/build install --record /media/sns/Study/1_RME/Ros2/ros2_ws/build/nodes_topics_demo/install.log --single-version-externally-managed install_data

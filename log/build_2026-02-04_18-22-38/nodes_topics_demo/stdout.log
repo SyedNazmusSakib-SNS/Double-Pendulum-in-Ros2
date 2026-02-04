@@ -1,0 +1,39 @@
+running egg_info
+creating ../../build/nodes_topics_demo/nodes_topics_demo.egg-info
+writing ../../build/nodes_topics_demo/nodes_topics_demo.egg-info/PKG-INFO
+writing dependency_links to ../../build/nodes_topics_demo/nodes_topics_demo.egg-info/dependency_links.txt
+writing entry points to ../../build/nodes_topics_demo/nodes_topics_demo.egg-info/entry_points.txt
+writing requirements to ../../build/nodes_topics_demo/nodes_topics_demo.egg-info/requires.txt
+writing top-level names to ../../build/nodes_topics_demo/nodes_topics_demo.egg-info/top_level.txt
+writing manifest file '../../build/nodes_topics_demo/nodes_topics_demo.egg-info/SOURCES.txt'
+reading manifest file '../../build/nodes_topics_demo/nodes_topics_demo.egg-info/SOURCES.txt'
+writing manifest file '../../build/nodes_topics_demo/nodes_topics_demo.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /media/sns/Study/1_RME/Ros2/ros2_ws/build/nodes_topics_demo/build
+creating /media/sns/Study/1_RME/Ros2/ros2_ws/build/nodes_topics_demo/build/lib
+creating /media/sns/Study/1_RME/Ros2/ros2_ws/build/nodes_topics_demo/build/lib/nodes_topics_demo
+copying nodes_topics_demo/number_publisher.py -> /media/sns/Study/1_RME/Ros2/ros2_ws/build/nodes_topics_demo/build/lib/nodes_topics_demo
+copying nodes_topics_demo/number_subscriber.py -> /media/sns/Study/1_RME/Ros2/ros2_ws/build/nodes_topics_demo/build/lib/nodes_topics_demo
+copying nodes_topics_demo/__init__.py -> /media/sns/Study/1_RME/Ros2/ros2_ws/build/nodes_topics_demo/build/lib/nodes_topics_demo
+running install
+running install_lib
+creating /media/sns/Study/1_RME/Ros2/ros2_ws/install/nodes_topics_demo/lib/python3.12/site-packages/nodes_topics_demo
+copying /media/sns/Study/1_RME/Ros2/ros2_ws/build/nodes_topics_demo/build/lib/nodes_topics_demo/number_publisher.py -> /media/sns/Study/1_RME/Ros2/ros2_ws/install/nodes_topics_demo/lib/python3.12/site-packages/nodes_topics_demo
+copying /media/sns/Study/1_RME/Ros2/ros2_ws/build/nodes_topics_demo/build/lib/nodes_topics_demo/number_subscriber.py -> /media/sns/Study/1_RME/Ros2/ros2_ws/install/nodes_topics_demo/lib/python3.12/site-packages/nodes_topics_demo
+copying /media/sns/Study/1_RME/Ros2/ros2_ws/build/nodes_topics_demo/build/lib/nodes_topics_demo/__init__.py -> /media/sns/Study/1_RME/Ros2/ros2_ws/install/nodes_topics_demo/lib/python3.12/site-packages/nodes_topics_demo
+byte-compiling /media/sns/Study/1_RME/Ros2/ros2_ws/install/nodes_topics_demo/lib/python3.12/site-packages/nodes_topics_demo/number_publisher.py to number_publisher.cpython-312.pyc
+byte-compiling /media/sns/Study/1_RME/Ros2/ros2_ws/install/nodes_topics_demo/lib/python3.12/site-packages/nodes_topics_demo/number_subscriber.py to number_subscriber.cpython-312.pyc
+byte-compiling /media/sns/Study/1_RME/Ros2/ros2_ws/install/nodes_topics_demo/lib/python3.12/site-packages/nodes_topics_demo/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /media/sns/Study/1_RME/Ros2/ros2_ws/install/nodes_topics_demo/share/ament_index
+creating /media/sns/Study/1_RME/Ros2/ros2_ws/install/nodes_topics_demo/share/ament_index/resource_index
+creating /media/sns/Study/1_RME/Ros2/ros2_ws/install/nodes_topics_demo/share/ament_index/resource_index/packages
+copying resource/nodes_topics_demo -> /media/sns/Study/1_RME/Ros2/ros2_ws/install/nodes_topics_demo/share/ament_index/resource_index/packages
+copying package.xml -> /media/sns/Study/1_RME/Ros2/ros2_ws/install/nodes_topics_demo/share/nodes_topics_demo
+running install_egg_info
+Copying ../../build/nodes_topics_demo/nodes_topics_demo.egg-info to /media/sns/Study/1_RME/Ros2/ros2_ws/install/nodes_topics_demo/lib/python3.12/site-packages/nodes_topics_demo-0.0.0-py3.12.egg-info
+running install_scripts
+Installing number_publisher script to /media/sns/Study/1_RME/Ros2/ros2_ws/install/nodes_topics_demo/lib/nodes_topics_demo
+Installing number_subscriber script to /media/sns/Study/1_RME/Ros2/ros2_ws/install/nodes_topics_demo/lib/nodes_topics_demo
+writing list of installed files to '/media/sns/Study/1_RME/Ros2/ros2_ws/build/nodes_topics_demo/install.log'
