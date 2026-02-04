@@ -1,0 +1,3 @@
+[console_scripts]
+publisher = qos_demo.publisher:main
+subscriber = qos_demo.subscriber:main

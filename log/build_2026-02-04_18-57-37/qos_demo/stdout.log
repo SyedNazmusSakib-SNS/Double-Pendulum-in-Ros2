@@ -1,0 +1,39 @@
+running egg_info
+creating ../../build/qos_demo/qos_demo.egg-info
+writing ../../build/qos_demo/qos_demo.egg-info/PKG-INFO
+writing dependency_links to ../../build/qos_demo/qos_demo.egg-info/dependency_links.txt
+writing entry points to ../../build/qos_demo/qos_demo.egg-info/entry_points.txt
+writing requirements to ../../build/qos_demo/qos_demo.egg-info/requires.txt
+writing top-level names to ../../build/qos_demo/qos_demo.egg-info/top_level.txt
+writing manifest file '../../build/qos_demo/qos_demo.egg-info/SOURCES.txt'
+reading manifest file '../../build/qos_demo/qos_demo.egg-info/SOURCES.txt'
+writing manifest file '../../build/qos_demo/qos_demo.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /media/sns/Study/1_RME/Ros2/ros2_ws/build/qos_demo/build
+creating /media/sns/Study/1_RME/Ros2/ros2_ws/build/qos_demo/build/lib
+creating /media/sns/Study/1_RME/Ros2/ros2_ws/build/qos_demo/build/lib/qos_demo
+copying qos_demo/publisher.py -> /media/sns/Study/1_RME/Ros2/ros2_ws/build/qos_demo/build/lib/qos_demo
+copying qos_demo/subscriber.py -> /media/sns/Study/1_RME/Ros2/ros2_ws/build/qos_demo/build/lib/qos_demo
+copying qos_demo/__init__.py -> /media/sns/Study/1_RME/Ros2/ros2_ws/build/qos_demo/build/lib/qos_demo
+running install
+running install_lib
+creating /media/sns/Study/1_RME/Ros2/ros2_ws/install/qos_demo/lib/python3.12/site-packages/qos_demo
+copying /media/sns/Study/1_RME/Ros2/ros2_ws/build/qos_demo/build/lib/qos_demo/publisher.py -> /media/sns/Study/1_RME/Ros2/ros2_ws/install/qos_demo/lib/python3.12/site-packages/qos_demo
+copying /media/sns/Study/1_RME/Ros2/ros2_ws/build/qos_demo/build/lib/qos_demo/subscriber.py -> /media/sns/Study/1_RME/Ros2/ros2_ws/install/qos_demo/lib/python3.12/site-packages/qos_demo
+copying /media/sns/Study/1_RME/Ros2/ros2_ws/build/qos_demo/build/lib/qos_demo/__init__.py -> /media/sns/Study/1_RME/Ros2/ros2_ws/install/qos_demo/lib/python3.12/site-packages/qos_demo
+byte-compiling /media/sns/Study/1_RME/Ros2/ros2_ws/install/qos_demo/lib/python3.12/site-packages/qos_demo/publisher.py to publisher.cpython-312.pyc
+byte-compiling /media/sns/Study/1_RME/Ros2/ros2_ws/install/qos_demo/lib/python3.12/site-packages/qos_demo/subscriber.py to subscriber.cpython-312.pyc
+byte-compiling /media/sns/Study/1_RME/Ros2/ros2_ws/install/qos_demo/lib/python3.12/site-packages/qos_demo/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /media/sns/Study/1_RME/Ros2/ros2_ws/install/qos_demo/share/ament_index
+creating /media/sns/Study/1_RME/Ros2/ros2_ws/install/qos_demo/share/ament_index/resource_index
+creating /media/sns/Study/1_RME/Ros2/ros2_ws/install/qos_demo/share/ament_index/resource_index/packages
+copying resource/qos_demo -> /media/sns/Study/1_RME/Ros2/ros2_ws/install/qos_demo/share/ament_index/resource_index/packages
+copying package.xml -> /media/sns/Study/1_RME/Ros2/ros2_ws/install/qos_demo/share/qos_demo
+running install_egg_info
+Copying ../../build/qos_demo/qos_demo.egg-info to /media/sns/Study/1_RME/Ros2/ros2_ws/install/qos_demo/lib/python3.12/site-packages/qos_demo-1.0.0-py3.12.egg-info
+running install_scripts
+Installing publisher script to /media/sns/Study/1_RME/Ros2/ros2_ws/install/qos_demo/lib/qos_demo
+Installing subscriber script to /media/sns/Study/1_RME/Ros2/ros2_ws/install/qos_demo/lib/qos_demo
+writing list of installed files to '/media/sns/Study/1_RME/Ros2/ros2_ws/build/qos_demo/install.log'

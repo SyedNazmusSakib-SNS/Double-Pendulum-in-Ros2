@@ -1,0 +1,41 @@
+[0.569s] Invoking command in '/media/sns/Study/1_RME/Ros2/ros2_ws/src/qos_demo': CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/media/sns/Study/1_RME/Ros2/ros2_ws/build/qos_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/media/sns/Study/1_RME/Ros2/ros2_ws/install/qos_demo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/qos_demo build --build-base /media/sns/Study/1_RME/Ros2/ros2_ws/build/qos_demo/build install --record /media/sns/Study/1_RME/Ros2/ros2_ws/build/qos_demo/install.log --single-version-externally-managed install_data
+[0.736s] running egg_info
+[0.736s] creating ../../build/qos_demo/qos_demo.egg-info
+[0.748s] writing ../../build/qos_demo/qos_demo.egg-info/PKG-INFO
+[0.748s] writing dependency_links to ../../build/qos_demo/qos_demo.egg-info/dependency_links.txt
+[0.749s] writing entry points to ../../build/qos_demo/qos_demo.egg-info/entry_points.txt
+[0.750s] writing requirements to ../../build/qos_demo/qos_demo.egg-info/requires.txt
+[0.750s] writing top-level names to ../../build/qos_demo/qos_demo.egg-info/top_level.txt
+[0.750s] writing manifest file '../../build/qos_demo/qos_demo.egg-info/SOURCES.txt'
+[0.773s] reading manifest file '../../build/qos_demo/qos_demo.egg-info/SOURCES.txt'
+[0.773s] writing manifest file '../../build/qos_demo/qos_demo.egg-info/SOURCES.txt'
+[0.773s] running build
+[0.773s] running build_py
+[0.773s] creating /media/sns/Study/1_RME/Ros2/ros2_ws/build/qos_demo/build
+[0.774s] creating /media/sns/Study/1_RME/Ros2/ros2_ws/build/qos_demo/build/lib
+[0.774s] creating /media/sns/Study/1_RME/Ros2/ros2_ws/build/qos_demo/build/lib/qos_demo
+[0.774s] copying qos_demo/publisher.py -> /media/sns/Study/1_RME/Ros2/ros2_ws/build/qos_demo/build/lib/qos_demo
+[0.774s] copying qos_demo/subscriber.py -> /media/sns/Study/1_RME/Ros2/ros2_ws/build/qos_demo/build/lib/qos_demo
+[0.774s] copying qos_demo/__init__.py -> /media/sns/Study/1_RME/Ros2/ros2_ws/build/qos_demo/build/lib/qos_demo
+[0.775s] running install
+[0.779s] running install_lib
+[0.790s] creating /media/sns/Study/1_RME/Ros2/ros2_ws/install/qos_demo/lib/python3.12/site-packages/qos_demo
+[0.790s] copying /media/sns/Study/1_RME/Ros2/ros2_ws/build/qos_demo/build/lib/qos_demo/publisher.py -> /media/sns/Study/1_RME/Ros2/ros2_ws/install/qos_demo/lib/python3.12/site-packages/qos_demo
+[0.790s] copying /media/sns/Study/1_RME/Ros2/ros2_ws/build/qos_demo/build/lib/qos_demo/subscriber.py -> /media/sns/Study/1_RME/Ros2/ros2_ws/install/qos_demo/lib/python3.12/site-packages/qos_demo
+[0.790s] copying /media/sns/Study/1_RME/Ros2/ros2_ws/build/qos_demo/build/lib/qos_demo/__init__.py -> /media/sns/Study/1_RME/Ros2/ros2_ws/install/qos_demo/lib/python3.12/site-packages/qos_demo
+[0.790s] byte-compiling /media/sns/Study/1_RME/Ros2/ros2_ws/install/qos_demo/lib/python3.12/site-packages/qos_demo/publisher.py to publisher.cpython-312.pyc
+[0.792s] byte-compiling /media/sns/Study/1_RME/Ros2/ros2_ws/install/qos_demo/lib/python3.12/site-packages/qos_demo/subscriber.py to subscriber.cpython-312.pyc
+[0.793s] byte-compiling /media/sns/Study/1_RME/Ros2/ros2_ws/install/qos_demo/lib/python3.12/site-packages/qos_demo/__init__.py to __init__.cpython-312.pyc
+[0.793s] running install_data
+[0.793s] creating /media/sns/Study/1_RME/Ros2/ros2_ws/install/qos_demo/share/ament_index
+[0.793s] creating /media/sns/Study/1_RME/Ros2/ros2_ws/install/qos_demo/share/ament_index/resource_index
+[0.794s] creating /media/sns/Study/1_RME/Ros2/ros2_ws/install/qos_demo/share/ament_index/resource_index/packages
+[0.794s] copying resource/qos_demo -> /media/sns/Study/1_RME/Ros2/ros2_ws/install/qos_demo/share/ament_index/resource_index/packages
+[0.794s] copying package.xml -> /media/sns/Study/1_RME/Ros2/ros2_ws/install/qos_demo/share/qos_demo
+[0.794s] running install_egg_info
+[0.808s] Copying ../../build/qos_demo/qos_demo.egg-info to /media/sns/Study/1_RME/Ros2/ros2_ws/install/qos_demo/lib/python3.12/site-packages/qos_demo-1.0.0-py3.12.egg-info
+[0.811s] running install_scripts
+[0.887s] Installing publisher script to /media/sns/Study/1_RME/Ros2/ros2_ws/install/qos_demo/lib/qos_demo
+[0.888s] Installing subscriber script to /media/sns/Study/1_RME/Ros2/ros2_ws/install/qos_demo/lib/qos_demo
+[0.888s] writing list of installed files to '/media/sns/Study/1_RME/Ros2/ros2_ws/build/qos_demo/install.log'
+[0.907s] Invoked command in '/media/sns/Study/1_RME/Ros2/ros2_ws/src/qos_demo' returned '0': CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/media/sns/Study/1_RME/Ros2/ros2_ws/build/qos_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/media/sns/Study/1_RME/Ros2/ros2_ws/install/qos_demo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/qos_demo build --build-base /media/sns/Study/1_RME/Ros2/ros2_ws/build/qos_demo/build install --record /media/sns/Study/1_RME/Ros2/ros2_ws/build/qos_demo/install.log --single-version-externally-managed install_data

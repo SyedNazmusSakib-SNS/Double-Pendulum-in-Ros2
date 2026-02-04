@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: qos-demo
+Version: 1.0.0
+Summary: ROS 2 QoS Demo - Learn Frequency, Latency, Buffer, and Reliability
+Maintainer: sns
+Maintainer-email: syednazmussakib64@gmail.com
+License: MIT
+Provides-Extra: test
